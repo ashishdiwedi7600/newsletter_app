@@ -9,11 +9,12 @@ exports.gettemplate = async (req, res) => {
     res.send({ status: 200, data: JSON.parse(data) });
 }
 exports.addTemplate = async (req, res) => {
-    req.body.id = database.length + 1
+    console.log(req.body)
+    req.body.template_id = database.length + 1
     const data = fs.readFileSync(filePath, 'utf8');
     const dataJson = JSON.parse(data);
-    const newData = [...dataJson, createStudent(req.body)]
-    const newStudentList = JSON.stringify(newData)
-    fs.writeFile(filePath, newStudentList, () => { });
+    const newData = [...dataJson, req.body]
+    const newTemplate = JSON.stringify(newData)
+    fs.writeFile(filePath, newTemplate, () => { });
     res.send({ status: 200, data: req.body, msg: "data added successfully" });
 }

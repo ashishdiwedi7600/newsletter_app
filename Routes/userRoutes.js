@@ -1,5 +1,6 @@
 const router = require('express').Router();
 const templateController = require('../Controllers/templateController');
+const { uploadImg,handleImg}=require('../Middlewares/multer');
 
 (()=>{
 
@@ -23,10 +24,16 @@ function getRequest(){
 
 function postRequest(){
     router.post('/addTemplate', templateController.addTemplate)
-    // router.post('/fee-submission', userController.feeSubmission)
+    router.post('/sendNewsletter', templateController.sendNewsletter)
+    router.post('/uploadImages',uploadImg('images'),handleImg,(req,res)=>{
+        console.log("files",req.files);
+        console.log("body",req.body);
+        res.send({msg:"Success"})
+    } )
 }
 
 function patchRequest(){
+    router.patch('/saveTemplate',templateController.saveTemplate)
     
 }
 

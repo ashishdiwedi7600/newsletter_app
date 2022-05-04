@@ -3,11 +3,13 @@ const ejs = require('ejs')
 
 const routes = require('./Routes/userRoutes')
 const cors = require('cors');
+const bodyParser = require('body-parser');
 const app = express();
+
 const version = 'aa';
 
 
-(()=>{
+(() => {
     // configur_db(); //for connecting database when it comes in use
     configur_cors();
     configur_parser();
@@ -17,9 +19,10 @@ const version = 'aa';
     globalErrorHandler();
 })()
 
-function configur_parser(){
-    app.use(express.json());
-    app.use(express.urlencoded({ extended: true }));
+function configur_parser() {
+
+    app.use(express.json({ limit: '50mb' }));
+    app.use(express.urlencoded({ limit: '50mb', extended: true, parameterLimit: 50000 }));
 }
 
 
@@ -27,11 +30,11 @@ function configur_parser(){
 //     db_connect();
 // }
 
-function configur_cors(){
+function configur_cors() {
     app.use(cors())
 }
 
-function configur_routes(){
+function configur_routes() {
     app.use(`/api/${version}/template`, routes)
 }
 
@@ -39,21 +42,21 @@ function configur_routes(){
 
 
 
-function error404(){
-   app.use((req, res)=>{
-       res.status(404).send({
-           status : 404,
-           msg: 'NOT FOUND'
-       })
-   })
+function error404() {
+    app.use((req, res) => {
+        res.status(404).send({
+            status: 404,
+            msg: 'NOT FOUND'
+        })
+    })
 }
 
-function globalErrorHandler(){
+function globalErrorHandler() {
 
-    app.use((err, req, res, next)=>{
+    app.use((err, req, res, next) => {
         res.status(500).send({
-            msg : err.message || 'Somthing went wrong. Please try again later',
-            status : 500
+            msg: err.message || 'Somthing went wrong. Please try again later',
+            status: 500
         })
     })
 

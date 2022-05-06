@@ -2,7 +2,7 @@ const multer  = require('multer');
 const path = require('path');   
 const filePath = path.join(__dirname, '../Storage/uploadImages');
 let imgKey = [];
-const imgBaseUrl = "https://cc67-2405-201-402e-a82c-bc8c-4551-8bc0-410b.ngrok.io";
+const imgBaseUrl = "https://templateella.herokuapp.com/";
 
 exports.uploadImg = (key) => {
   imgKey=key

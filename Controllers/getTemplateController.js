@@ -14,7 +14,7 @@ exports.gettemplate = async (req, res) => {
 exports.getImages=async(req,res)=>{
     const data=fs.readFileSync(imgPath,'utf8')
     const imgData = JSON.parse(data);
-    res.send({ status: 200, data: imgData });
+    res.send({ status: 200, data: imgData }); 
 }
 exports.getemails= async (req,res)=>{
     const data=fs.readFileSync(emailJson,'utf8')

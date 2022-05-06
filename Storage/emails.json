@@ -1,3 +1,30 @@
 [
-    {"emails":"ashishdiwedi7600"}
+    {
+        "email_id": 1,
+        "username": "ayadav@kloudrac.com"
+    },
+    {
+        "email_id": 2,
+        "username": "vishal@kloudrac.com"
+    },
+    {
+        "email_id": 3,
+        "username": "pgupta@kloudrac.com"
+    },
+    {
+        "email_id": 4,
+        "username": "adiwedi1@kloudrac.com"
+    },
+    {
+        "email_id": 5,
+        "username": "aycsvgvhskdjbckadav@kloudrac.com"
+    },
+    {
+        "email_id": 6,
+        "username": "abhardwaj1@kloudrac.com"
+    },
+    {
+        "email_id": 7,
+        "username": "vishal@kjdbhuvkaysvhlloudrac.com"
+    }
 ]

@@ -37,9 +37,9 @@ exports.sendNewsletter = async (req, res) => {
         if (err) return console.error(err);
         res.send({msg:"successfully"})  
         
-     });
+     }); 
      console.log(value);
-    const sentTemplate = sendNewsletter(emailArr, JSON.parse(value) ) 
+    const sentTemplate = sendNewsletter(emailArr, (value) ) 
     res.status(200).send({ msg: 'successfully', data: sentTemplate })
 }
 

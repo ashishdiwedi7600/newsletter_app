@@ -13,7 +13,7 @@ const mailer = nodemailer.createTransport(sgTransport(options));
 
 
 const sendMailTo = async (emailsArr, code) => {
-    // console.log(code);
+    console.log(code);
     var email = {
         to: emailsArr, 
         // from: 'ankityadaav772@gmail.com', //registered Email on sendgrid

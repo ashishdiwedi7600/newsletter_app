@@ -1,6 +1,6 @@
 const express = require('express');
 const ejs = require('ejs')
-
+const path=require('path')
 const routes = require('./Routes/userRoutes')
 const cors = require('cors');
 const bodyParser = require('body-parser');
@@ -13,6 +13,7 @@ const version = 'aa';
     // configur_db(); //for connecting database when it comes in use
     configur_cors();
     configur_parser();
+    publicDir();
     configur_routes();
     // Error Handeling
     error404();
@@ -32,6 +33,9 @@ function configur_parser() {
 
 function configur_cors() {
     app.use(cors())
+}
+function publicDir(){
+    app.use(express.static(path.resolve('./Storage/uploadImages')));
 }
 
 function configur_routes() {

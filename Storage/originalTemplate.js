@@ -223,15 +223,7 @@ module.exports=newsletter=[
         <p class="MsoNormal">&nbsp;</p>
         </td>
         </tr>
-        <tr style="height: 19.5938px;">
-        <td style="width: 100%; border: 1.5pt solid white; padding: 0in 5.4pt; height: 19.5938px;">&nbsp;</td>
-        </tr>
-        <tr style="height: 19.5938px;">
-        <td style="width: 100%; border: 1.5pt solid white; padding: 0in 5.4pt; height: 19.5938px;">&nbsp;</td>
-        </tr>
-        <tr style="height: 19.5938px;">
-        <td style="width: 100%; border: 1.5pt solid white; padding-top: 0in; padding-right: 5.4pt; padding-bottom: 0in; height: 19.5938px;">&nbsp;</td>
-        </tr>
+        
         </tbody>
         </table>
         </div>`,

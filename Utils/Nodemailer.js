@@ -4,22 +4,25 @@ const sgTransport = require('nodemailer-sendgrid-transport');
 var options = {
     auth: {
         //take it from sendgrid (https://app.sendgrid.com) 
-        api_key: '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'
+        // api_key: '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'//Ankit
+        api_key: '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'
+
     }
 }
 
 const mailer = nodemailer.createTransport(sgTransport(options));
 
 
-const emailTemplate = (verifyCode) => ` ${verifyCode} `;
 
 const sendMailTo = async (emailsArr, code) => {
+    // console.log(code);
     var email = {
-        to: emailsArr,
-        from: 'ankityadaav772@gmail.com', //registered Email on sendgrid
+        to: emailsArr, 
+        // from: 'ankityadaav772@gmail.com', //registered Email on sendgrid
+        from: 'abhardwaj1@kloudrac.com', //registered Email on sendgrid
         subject: 'Newsletter From Ashish and Ankit',
-        text: 'Awesome sauce',
-        html: emailTemplate(JSON.parse(code)) 
+        text: 'Newsletter',
+        html: code
     };
 
     const result = new Promise((resolve, reject) => {

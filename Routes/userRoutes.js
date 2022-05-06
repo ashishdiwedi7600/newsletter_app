@@ -1,5 +1,7 @@
 const router = require('express').Router();
-const templateController = require('../Controllers/templateController');
+const gettemplateController = require('../Controllers/getTemplateController');
+const posttemplateController = require('../Controllers/postTemplateController');
+const patchtemplateController = require('../Controllers/patchTemplateController');
 const { uploadImg,handleImg}=require('../Middlewares/multer');
 
 (()=>{
@@ -18,22 +20,20 @@ const { uploadImg,handleImg}=require('../Middlewares/multer');
 
 
 function getRequest(){
-    router.get('/', templateController.gettemplate)
+    router.get('/', gettemplateController.gettemplate)
+    router.get('/getImages', gettemplateController.getImages)
+    router.get('/getEmails', gettemplateController.getemails)
 
 }
 
 function postRequest(){
-    router.post('/addTemplate', templateController.addTemplate)
-    router.post('/sendNewsletter', templateController.sendNewsletter)
-    router.post('/uploadImages',uploadImg('images'),handleImg,(req,res)=>{
-        console.log("files",req.files);
-        console.log("body",req.body);
-        res.send({msg:"Success"})
-    } )
+    router.post('/addTemplate', posttemplateController.addTemplate)
+    router.post('/sendNewsletter', posttemplateController.sendNewsletter)
+    router.post('/uploadImages',uploadImg('image'),handleImg,posttemplateController.saveImages)
 }
 
 function patchRequest(){
-    router.patch('/saveTemplate',templateController.saveTemplate)
+    router.patch('/saveTemplate',patchtemplateController.saveTemplate)
     
 }
 

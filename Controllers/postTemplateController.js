@@ -5,8 +5,11 @@ const filePath = path.join(__dirname, '../Storage/template.json');
 const emailJson = path.join(__dirname, '../Storage/emails.json');
 const imgPath = path.join(__dirname, '../Storage/images.json');
 const sendNewsletter = require('../Utils/Nodemailer')
+const newsletter = require('../Storage/originalTemplate')
+const sendNewsletter2 = require('../Utils/Nodemailer2')
 const { v4: uuidv4 } = require('uuid');
-const imgBaseUrl = "https://cc67-2405-201-402e-a82c-bc8c-4551-8bc0-410b.ngrok.io";
+const imageGallery=require('../Models/imagesGallery') 
+const imgBaseUrl = "https://templateella.herokuapp.com";
 
 
 
@@ -35,38 +38,30 @@ exports.sendNewsletter = async (req, res) => {
     const newEmaillist = JSON.stringify(dataJson);
     fs.writeFile(emailJson, newEmaillist, (err,data) => {
         if (err) return console.error(err);
-        res.send({msg:"successfully"})  
+        // res.send({msg:"successfully"})  
         
      }); 
      console.log(value);
-    const sentTemplate = sendNewsletter(emailArr, (value) ) 
-    res.status(200).send({ msg: 'successfully', data: sentTemplate })
+    const sentTemplate = sendNewsletter2(emailArr, value ) 
+    res.status(200).send({ msg: 'successfully'})
 }
 
 exports.saveImages = async (req, res) => {
-    try {
-        const data = fs.readFileSync(imgPath, 'utf8');
-        let dataJson = JSON.parse(data);
-        let newUpload = {}
+    Promise.all(
         req.files.map(async (file) => {
-            newUpload = {
-                id: uuidv4(),
-                image: `${imgBaseUrl}/${file?.filename}`,
-            }
-            dataJson.push(newUpload)
+            req.body.image=`${imgBaseUrl}/${file?.filename}`
+            const {image}=req.body
+            console.log(image);
+            const newupload=new imageGallery.gallery({image})
+            await imageGallery.gallery.insertMany([newupload])
         })
-        const newImagesList = JSON.stringify(dataJson);
-        fs.writeFile(imgPath, newImagesList, () => { });
-        const images = fs.readFile(imgPath,  (err, data) => {
-            if (err) return console.error(err);
-        const imageJson = JSON.parse(data)
-            res.send({ status: 200,  msg: "Image uploaded Succefully successfully" ,data:imageJson});
-
+      )
+        .then(res.status(201).send({msg:"files successfully uploaded",data:await imageGallery.gallery.find({})}))
+        .catch((e) => {
+          res
+            .status(500)
+            .send({ message: "Something went wrong in /uploads/img", error: e });
         });
-
-    }
-    catch (err) {
-        console.error(err)
-    }
+    
 
 }

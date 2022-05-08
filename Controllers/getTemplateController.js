@@ -1,6 +1,6 @@
 const path = require('path');
 const fs = require('fs');
-const imgPath = path.join(__dirname, '../Storage/images.json');
+const imageGallery=require('../Models/imagesGallery')
 const emailJson = path.join(__dirname, '../Storage/emails.json');
 const newsletter = require('../Storage/originalTemplate')
 
@@ -9,11 +9,10 @@ const newsletter = require('../Storage/originalTemplate')
 exports.gettemplate = async (req, res) => {
     const { template_id = 1 } = req.body
     const templateObject = newsletter.find((v) => v.template_id == template_id)
-    res.send({ status: 200, msg:"images mil gyi kya ",data: templateObject });
+    res.send({ status: 200, msg:"successfully ",data: templateObject });
 }
 exports.getImages=async(req,res)=>{
-    const data=fs.readFileSync(imgPath,'utf8')
-    const imgData = JSON.parse(data);
+    const imgData=await imageGallery.gallery.find({})
     res.send({ status: 200, data: imgData }); 
 }
 exports.getemails= async (req,res)=>{

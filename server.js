@@ -3,6 +3,7 @@ const ejs = require('ejs')
 const path=require('path')
 const routes = require('./Routes/userRoutes')
 const cors = require('cors');
+const {db_connect}= require('./db_config/index')
 const bodyParser = require('body-parser');
 const app = express();
 
@@ -10,7 +11,7 @@ const version = 'aa';
 
 
 (() => {
-    // configur_db(); //for connecting database when it comes in use
+    configur_db(); //for connecting database when it comes in use
     configur_cors();
     configur_parser();
     publicDir();
@@ -20,6 +21,11 @@ const version = 'aa';
     globalErrorHandler();
 })()
 
+
+function configur_cors() {
+    app.use(cors())
+}
+
 function configur_parser() {
 
     app.use(express.json({ limit: '50mb' }));
@@ -27,13 +33,10 @@ function configur_parser() {
 }
 
 
-// function configur_db(){
-//     db_connect();
-// }
-
-function configur_cors() {
-    app.use(cors())
+function configur_db(){
+    db_connect();
 }
+
 function publicDir(){
     app.use(express.static(path.resolve('./Storage/uploadImages')));
 }

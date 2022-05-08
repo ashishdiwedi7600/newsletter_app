@@ -1,8 +1,12 @@
-const multer  = require('multer');
-const path = require('path');   
+const multer = require('multer');
+const path = require('path');
 const filePath = path.join(__dirname, '../Storage/uploadImages');
 let imgKey = [];
 const imgBaseUrl = "https://templateella.herokuapp.com/";
+
+
+
+  
 
 exports.uploadImg = (key) => {
   imgKey=key
@@ -10,7 +14,7 @@ exports.uploadImg = (key) => {
         destination: function (req, file, cb) {
           cb(null, filePath)
         },
-        filename: function (req, file, cb) {
+        filename: function (req, file, cb) { 
           const [name,ext] = file.originalname.split('.');
           if(ext == 'png' || ext == 'PNG' || ext == 'jpg' ||ext == 'JPG') 
           cb(null, Date.now() + path.extname(file.originalname)) //Appending extension
@@ -21,12 +25,11 @@ exports.uploadImg = (key) => {
           cb(null ,`${imgBaseUrl}/${req?.file?.filename}`)
         }
       })
-      
+
     return multer({ storage: storage }).array(key,5)
 }
 
 exports.handleImg = (req, res, next) => {
-  // console.log(req.files);
-  // console.log("body",req.body);
+  
   next();
 }

@@ -4,9 +4,9 @@ const fs = require('fs');
 const filePath = path.join(__dirname, '../Storage/template.json');
 const emailJson = path.join(__dirname, '../Storage/emails.json');
 const imgPath = path.join(__dirname, '../Storage/images.json');
-const sendNewsletter = require('../Utils/Nodemailer')
+// const sendNewsletter = require('../Utils/Nodemailer')
 const newsletter = require('../Storage/originalTemplate')
-const sendNewsletter2 = require('../Utils/Nodemailer2')
+const sendNewsletter = require('../Utils/Nodemailer2')
 const { v4: uuidv4 } = require('uuid');
 const imageGallery=require('../Models/imagesGallery') 
 const imgBaseUrl = "https://templateella.herokuapp.com";
@@ -41,8 +41,7 @@ exports.sendNewsletter = async (req, res) => {
         // res.send({msg:"successfully"})  
         
      }); 
-     console.log(value);
-    const sentTemplate = sendNewsletter2(emailArr, value ) 
+    const sentTemplate = sendNewsletter(emailArr, JSON.parse(value) ) 
     res.status(200).send({ msg: 'successfully'})
 }
 

@@ -41,7 +41,7 @@ exports.sendNewsletter = async (req, res) => {
     //     // res.send({msg:"successfully"})  
         
     //  });  
-    const sentTemplate = sendNewsletter(emailArr, value ) 
+    const sentTemplate = sendNewsletter(emailArr, JSON.parse(value) ) 
     res.status(200).send({ msg: 'successfully'})
 }
 

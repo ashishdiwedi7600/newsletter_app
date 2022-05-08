@@ -38,7 +38,7 @@ async function sendMail(emailsArr,code) {
         to: emailsArr,
         subject: 'Newsletter',
         text: 'Hello from gmail email using API',
-        html: code
+        // html: code
       };
   
       const result = await transport.sendMail(mailOptions);

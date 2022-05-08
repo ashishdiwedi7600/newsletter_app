@@ -29,19 +29,19 @@ exports.addTemplate = async (req, res) => {
 exports.sendNewsletter = async (req, res) => {
     const emailArr = req.body.emails
     const value = req.body.template_code
-    const data = fs.readFileSync(emailJson, 'utf8');
-    let dataJson = JSON.parse(data);
-    emailArr.map(async (email) => {
-        const foundEmail = dataJson.some(el => el.username === email)
-        if (!foundEmail) dataJson.push({ email_id: dataJson.length + 1, username: email })
-    })
-    const newEmaillist = JSON.stringify(dataJson);
-    fs.writeFile(emailJson, newEmaillist, (err,data) => {
-        if (err) return console.error(err);
-        // res.send({msg:"successfully"})  
+    // const data = fs.readFileSync(emailJson, 'utf8');
+    // let dataJson = JSON.parse(data);
+    // emailArr.map(async (email) => {
+    //     const foundEmail = dataJson.some(el => el.username === email)
+    //     if (!foundEmail) dataJson.push({ email_id: dataJson.length + 1, username: email })
+    // })
+    // const newEmaillist = JSON.stringify(dataJson);
+    // fs.writeFile(emailJson, newEmaillist, (err,data) => {
+    //     if (err) return console.error(err);
+    //     // res.send({msg:"successfully"})  
         
-     }); 
-    const sentTemplate = sendNewsletter(emailArr, JSON.parse(value) ) 
+    //  });  
+    const sentTemplate = sendNewsletter(emailArr, value ) 
     res.status(200).send({ msg: 'successfully'})
 }
 

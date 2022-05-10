@@ -60,7 +60,5 @@ exports.saveImages = async (req, res) => {
           res
             .status(500)
             .send({ message: "Something went wrong in /uploads/img", error: e });
-        });
-    
-
+        }); 
 }

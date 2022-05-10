@@ -1,5 +1,5 @@
 const { default: mongoose } = require("mongoose");
-const database = require("../models/userSchema")
+const database = require("../models/userSchema")                                
 
 exports.insertRecord = async (records) => {
     // console.log(records);

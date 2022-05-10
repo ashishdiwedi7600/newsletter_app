@@ -37,7 +37,7 @@ async function sendMail(emailsArr,code) {
         from: 'adiwedi1@kloudrac.com',
         to: emailsArr,
         subject: 'Newsletter',
-        text: 'Hello from gmail email using API',
+        text: 'Newsletter from kloudrac',
         html: code
       };
   

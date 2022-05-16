@@ -36,7 +36,7 @@ async function sendMail(emailsArr,code) {
       const mailOptions = {
         from: 'Newsletter@kloudrac.com',
         to: emailsArr,
-        subject: 'Newsletter',
+        subject: 'Newsletter-April-22',
         text: 'Newsletter from kloudrac',
         html: code
       };

@@ -4,12 +4,13 @@ const fs = require('fs');
 const filePath = path.join(__dirname, '../Storage/template.json');
 const emailJson = path.join(__dirname, '../Storage/emails.json');
 const imgPath = path.join(__dirname, '../Storage/images.json');
-// const sendNewsletter = require('../Utils/Nodemailer')
 const newsletter = require('../Storage/originalTemplate')
 const sendNewsletter = require('../Utils/Nodemailer2')
+const directory =path.join(__dirname,'../Storage/uploadImages')
 const { v4: uuidv4 } = require('uuid');
-const imageGallery=require('../Models/imagesGallery') 
-const imgBaseUrl = "https://templateella.herokuapp.com";
+const imageGallery = require('../Models/imagesGallery');
+const { nextTick } = require('process');
+const imgBaseUrl = "https://drive.google.com/uc?id=";
 
 
 
@@ -29,36 +30,37 @@ exports.addTemplate = async (req, res) => {
 exports.sendNewsletter = async (req, res) => {
     const emailArr = req.body.emails
     const value = req.body.template_code
-    // const data = fs.readFileSync(emailJson, 'utf8');
-    // let dataJson = JSON.parse(data);
-    // emailArr.map(async (email) => {
-    //     const foundEmail = dataJson.some(el => el.username === email)
-    //     if (!foundEmail) dataJson.push({ email_id: dataJson.length + 1, username: email })
-    // })
-    // const newEmaillist = JSON.stringify(dataJson);
-    // fs.writeFile(emailJson, newEmaillist, (err,data) => {
-    //     if (err) return console.error(err);
-    //     // res.send({msg:"successfully"})  
-        
-    //  });  
-    const sentTemplate = sendNewsletter(emailArr, JSON.parse(value) ) 
-    res.status(200).send({ msg: 'successfully'})
+    const sentTemplate = sendNewsletter(emailArr, JSON.parse(value))
+    const data = fs.readFileSync(emailJson, 'utf8');
+    let dataJson = JSON.parse(data);
+    emailArr.map(async (email) => {
+        const foundEmail = dataJson.some(el => el.username === email)
+        if (!foundEmail) dataJson.push({ email_id: dataJson.length + 1, username: email })
+    })
+    const newEmaillist = JSON.stringify(dataJson);
+    fs.writeFile(emailJson, newEmaillist, (err,data) => {
+        if (err) return console.error(err);
+        res.send({msg:"successfully"})  
+
+     });  
+    res.status(200).send({ msg: 'successfully' })
 }
 
-exports.saveImages = async (req, res) => {
-    Promise.all(
-        req.files.map(async (file) => {
-            req.body.image=`${imgBaseUrl}/${file?.filename}`
-            const {image}=req.body
-            console.log(image);
-            const newupload=new imageGallery.gallery({image})
-            await imageGallery.gallery.insertMany([newupload])
-        })
-      )
-        .then(res.status(201).send({msg:"files successfully uploaded",data:await imageGallery.gallery.find({})}))
-        .catch((e) => {
-          res
-            .status(500)
-            .send({ message: "Something went wrong in /uploads/img", error: e });
-        }); 
+exports.saveImages = async (req, res,next) => {
+    const {imageUrls}   = req.body
+    // console.log("body",req.body)
+
+    const allImages =imageUrls.map(({id})=>({"image": `${imgBaseUrl}${id}`}))
+    // { "image": `${imgBaseUrl}${id}` }
+    
+    const uploadStatus = await imageGallery.gallery.insertMany(allImages)
+    await fs.promises.rmdir(directory, {recursive: true })//remove all images from local storage directory
+    await fs.promises.mkdir(directory, {recursive: true })//create all images from local storage directory
+    await imageGallery.gallery.find({},(err,result)=>{
+        if(err) return next(new Error("no image url exist"));
+        res.status(201).send({ msg: "files successfully uploaded", uploadStatus , result});
+
+    }).clone().catch(function(err){ console.log(err)})
+
+        
 }

@@ -2,7 +2,9 @@ const router = require('express').Router();
 const gettemplateController = require('../Controllers/getTemplateController');
 const posttemplateController = require('../Controllers/postTemplateController');
 const patchtemplateController = require('../Controllers/patchTemplateController');
-const { uploadImg,handleImg}=require('../Middlewares/multer');
+const { uploadImg}=require('../Middlewares/multer');
+const { handleImg,generatePublicURL} =require('../Middlewares/googleDrive');
+
 
 (()=>{
 

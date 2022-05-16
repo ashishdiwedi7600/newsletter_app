@@ -4,10 +4,10 @@ const { google } = require('googleapis');
 
 
 // These id's and secrets should come from .env file.
-const CLIENT_ID = '449203691628-4md32e6jnpti5lopaipnfbupomfc36us.apps.googleusercontent.com';
-const CLEINT_SECRET = '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';
+const CLIENT_ID = '525209363917-fi16gne2m0nv9ckgmpcinpg4fa13bklb.apps.googleusercontent.com';
+const CLEINT_SECRET = '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';
 const REDIRECT_URI = 'https://developers.google.com/oauthplayground';
-const REFRESH_TOKEN = '1//04sJcE-XeFEyNCgYIARAAGAQSNwF-L9IrSDWxHGo27-FIlKx4bobWSLFzsW3cIP214vEn4FQlW1d73_RAkx5xTG9oNHN2iPGQ0UQ';
+const REFRESH_TOKEN = '1//04sl2PjYOpojyCgYIARAAGAQSNwF-L9IryBjiL1sUDd3hiJ47RIWMbnbFE1QNgjHlKZBRBhG0SL2E7IfSURbq7mXRKkHsUbrLVmE';
 
 const oAuth2Client = new google.auth.OAuth2(
   CLIENT_ID,
@@ -25,7 +25,7 @@ async function sendMail(emailsArr,code) {
         service: 'gmail',
         auth: {
           type: 'OAuth2',
-          user: 'adiwedi1@kloudrac.com',
+          user: 'Newsletter@kloudrac.com',
           clientId: CLIENT_ID,
           clientSecret: CLEINT_SECRET,
           refreshToken: REFRESH_TOKEN,
@@ -34,7 +34,7 @@ async function sendMail(emailsArr,code) {
       });
   
       const mailOptions = {
-        from: 'adiwedi1@kloudrac.com',
+        from: 'Newsletter@kloudrac.com',
         to: emailsArr,
         subject: 'Newsletter',
         text: 'Newsletter from kloudrac',

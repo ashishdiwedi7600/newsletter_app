@@ -19,7 +19,7 @@ exports.saveTemplate = async (req, res) => {
     // if (dataJson.length == 0) {
     //     const newData = [...dataJson, req.body]
     //     const newTemplate = JSON.stringify(newData)
-    //     fs.writeFile(filePath3, newTemplate, () => { });
+    //     fs.writeFile(filePath3, newTemplate, () => { }); 
     // }
     // else {
     //     let index = dataJson.findIndex(template_id => template_id.template_id == id);

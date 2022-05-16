@@ -38,7 +38,8 @@ async function uploadFileToGoogleDrive(req, res, next) {
 
                     const result = drive.files.create({
                         requestBody: {
-                            name: file.originalname
+                            name: file.originalname,
+                            parents: ['1FSIjQzbezvcI_uL0fayjNH81-5GnsbIs']
                         },
                         media: {
                             mineType: file.mimeType,

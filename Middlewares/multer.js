@@ -48,7 +48,7 @@ exports.uploadImg = (key) => {
         // }
       })
       
-    return multer({ storage: storage }).array(key,5)
+    return multer({ storage: storage }).array(key,9)
 }
 
 

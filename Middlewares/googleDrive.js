@@ -1,6 +1,10 @@
 
 const { google } = require('googleapis');
+const multer = require('multer');
 const fs = require('fs');
+const stream = require('stream');
+const GOOGLE_DRIVE_BASEURL  = "https://drive.google.com/uc?id=";
+
 
 const
     CLIENT_ID = "449203691628-4md32e6jnpti5lopaipnfbupomfc36us.apps.googleusercontent.com",
@@ -18,74 +22,109 @@ const drive = google.drive({
     auth: auth2Client
 });
 
-exports.handleImg = async (req, res, next) => {
-    const files = req.files
 
-    let imageStatus = files.map((val) => {
-        const promise = new Promise(async (resolve, reject) => {
+async function uploadFileToGoogleDrive(req, res, next) {
+
+    const { files = [] } = req;
+
+    try {
+        const uploadedImageStatus = files?.map(async (file) => {
+
+            const bufferStream = new stream.PassThrough();
+            bufferStream.end(file.buffer);
+
             try {
-                const pushStatus = await drive.files.create({
-                    requestBody: {
-                        name: `${val?.originalname}`,
-                        mine_type: `${val?.mimetype}`,
-                        parents: ['1FSIjQzbezvcI_uL0fayjNH81-5GnsbIs']
-                    },
-                    media: {
-                        mine_type: `${val?.mimetype}`,
-                        body: fs.createReadStream(`${val?.path}`)
-                    }
-                })
-                // console.log(pushStatus.data);
-                // req.body.id=pushStatus.data.id
-                resolve(pushStatus)
+                return await new Promise((resolve, reject) => {
 
+                    const result = drive.files.create({
+                        requestBody: {
+                            name: file.originalname
+                        },
+                        media: {
+                            mineType: file.mimeType,
+                            body: bufferStream
+                        },
+                        fields: 'id,name',
+                    });
 
+                    resolve(result);
+                });
             } catch (err) {
-                console.log(err.message);
+                return err;
             }
-        });
-        return (promise)
-    })
-    const imagesDetails = await Promise.all([...imageStatus]).then((values) => values.map(({ data }) => data));
-    // console.log("image",imagesDetails)
-    const urls = await generatePublicURL(imagesDetails)
-    req.body.imageUrls = imagesDetails
-    next()
 
 
+        })
 
+        // Uploaded Images Status
+        const uploadStatus = await Promise.allSettled(uploadedImageStatus);
+        // To Set access permissions
+        const imagesDetails = await generatePublicURLOfGoogleDriveFiles(uploadStatus);
+        // console.log(imagesDetails);
+
+        req.body.imagesDetails = imagesDetails;
+        next()
+
+    } catch (err) {
+        console.log(err.message);
+    }
 }
 
+// uploadFile()
 
 
-const generatePublicURL = async (fileId) => {
-    let imaupload = fileId.map(({ id }) => {
-        return new Promise(async (resolve, reject) => {
-            try {
+async function generatePublicURLOfGoogleDriveFiles(uploadStatus = []) {
+    try {
+
+        const changePremissions = uploadStatus.map(({ value }) => {
+
+            const imageDetails = value?.data;
+            return new Promise(async (resolve,) => {
+                //   TO Change Uploaded files Permission
                 await drive.permissions.create({
-                    fileId: id,
+                    fileId: imageDetails.id,
                     requestBody: {
                         role: 'reader',
                         type: 'anyone'
                     }
                 })
+                // TO Generate Public view/download drive link
                 const result = await drive.files.get({
-                    fileId: id,
+                    fileId: imageDetails.id,
                     fields: 'webViewLink,  webContentLink'
                 })
-                return resolve(result.data)
-            } catch (error) {
-                console.log(error.message);
-            }
-        }
+                imageDetails.browerUrl = GOOGLE_DRIVE_BASEURL + imageDetails.id;
+                resolve({...result?.data, ...imageDetails });
+            })
 
+        })
 
-        )
-    })
-    return await Promise.all([...imaupload]).then((value) => value).catch((e) => console.log(e))
-
-
-
+        return await Promise.allSettled(changePremissions);
+    } catch (error) {
+        console.log(error.message);
+    }
 }
 
 // generatePublicURL();
+
+async function deleteFileFromGoogleDrive(fileId) {
+
+    try {
+        const response = await drive.files.delete({ fileId })
+        return response
+    } catch (err) {
+        console.log(err.message);
+    }
+
+}
+
+// deleteFile();
+
+
+
+module.exports = {
+    multer: multer(),
+    uploadFileToGoogleDrive,
+    deleteFileFromGoogleDrive,
+    generatePublicURLOfGoogleDriveFiles
+};

@@ -6,11 +6,10 @@ const emailJson = path.join(__dirname, '../Storage/emails.json');
 const imgPath = path.join(__dirname, '../Storage/images.json');
 const newsletter = require('../Storage/originalTemplate')
 const sendNewsletter = require('../Utils/Nodemailer2')
-const directory =path.join(__dirname,'../Storage/uploadImages')
+const directory = path.join(__dirname, '../Storage/uploadImages')
 const { v4: uuidv4 } = require('uuid');
 const imageGallery = require('../Models/imagesGallery');
 const { nextTick } = require('process');
-const imgBaseUrl = "https://drive.google.com/uc?id=";
 
 
 
@@ -46,21 +45,15 @@ exports.sendNewsletter = async (req, res) => {
     res.status(200).send({ msg: 'successfully' })
 }
 
-exports.saveImages = async (req, res,next) => {
-    const {imageUrls}   = req.body
-    // console.log("body",req.body)
-
-    const allImages =imageUrls.map(({id})=>({"image": `${imgBaseUrl}${id}`}))
-    // { "image": `${imgBaseUrl}${id}` }
-    
+exports.saveImages = async (req, res, next) => {
+    const value = req.body.imagesDetails
+    const allImages = value.map(({ value }) => ({ "image": value.browerUrl }))
+    console.log(allImages);
     const uploadStatus = await imageGallery.gallery.insertMany(allImages)
-    await fs.promises.rm(directory, {recursive: true })//remove all images from local storage directory
-    await fs.promises.mkdir(directory, {recursive: true })//create all images from local storage directory
-    await imageGallery.gallery.find({},(err,result)=>{
-        if(err) return next(new Error("no image url exist"));
-        res.status(201).send({ msg: "files successfully uploaded", uploadStatus , result});
+    await imageGallery.gallery.find({}, (err, result) => {
+        if (err) return next(new Error("no image url exist"));
+        res.status(201).send({ msg: "files successfully uploaded", uploadStatus, result });
+    }).clone().catch(function (err) { console.log(err) })
 
-    }).clone().catch(function(err){ console.log(err)})
 
-        
 }

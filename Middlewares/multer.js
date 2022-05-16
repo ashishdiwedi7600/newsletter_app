@@ -44,11 +44,11 @@ exports.uploadImg = (key) => {
           cb(new Error('Wrong File formet (user only .png, .jpg, .PNG)'))
         },
         // path: function (req,res,cb){
-        //   cb(null ,`${imgBaseUrl}/${req?.file?.filename}`)
+        //   cb(null ,`${imgBaseUrl}/${req?.file?.filename}`) 
         // }
       })
       
-    return multer({ storage: storage }).array(key,9)
+    return multer({ storage: storage }).array(key,8)
 }
 
 

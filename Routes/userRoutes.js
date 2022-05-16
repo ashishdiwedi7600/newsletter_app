@@ -1,9 +1,10 @@
 const router = require('express').Router();
+const googleDriveOperations = require('../Middlewares/googleDrive');
+
 const gettemplateController = require('../Controllers/getTemplateController');
 const posttemplateController = require('../Controllers/postTemplateController');
 const patchtemplateController = require('../Controllers/patchTemplateController');
-const { uploadImg}=require('../Middlewares/multer');
-const { handleImg,generatePublicURL} =require('../Middlewares/googleDrive');
+const { multer, uploadFileToGoogleDrive }=googleDriveOperations;
 
 
 (()=>{
@@ -31,7 +32,7 @@ function getRequest(){
 function postRequest(){
     router.post('/addTemplate', posttemplateController.addTemplate)
     router.post('/sendNewsletter', posttemplateController.sendNewsletter)
-    router.post('/uploadImages',uploadImg('image'),handleImg,posttemplateController.saveImages)
+    router.post('/uploadImages',multer.any(),uploadFileToGoogleDrive,posttemplateController.saveImages)
 }
 
 function patchRequest(){

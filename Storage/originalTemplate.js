@@ -1,323 +1,447 @@
 module.exports=newsletter=[
     {
-        "template_code": `<div id=":12j" class="a3s aiL "><table style="background:rgb(248,248,248);border-collapse:collapse;width:99.5586%;height:7945.23px" border="0" cellspacing="0" cellpadding="0">
+        "template_code": `<div class="im"><table style="background:rgb(248,248,248);border-collapse:collapse;width:94.867%;height:7176px" border="0" cellspacing="0" cellpadding="0">
         <tbody>
-        <tr style="height:10px">
-        <td style="width:100%;border:1.5pt solid white;padding-top:0in;padding-right:5.4pt;padding-bottom:0in;line-height:1.3;height:10px">&nbsp;</td>
+        <tr style="height:18.1979px">
+        <td style="width:100%;border:1.5pt solid white;padding-top:0in;padding-right:5.4pt;padding-bottom:0in;line-height:1.3;height:18.1979px">&nbsp;</td>
         </tr>
-        <tr style="height:7935.23px">
-        <td style="width:100%;border:1.5pt solid white;padding-top:0in;padding-right:5.4pt;padding-bottom:0in;height:7935.23px;line-height:1.3" valign="top" width="1024"><u></u>
-        <table style="border-collapse:collapse;width:100.124%;height:198.125px;border-width:0px;background-color:#236fa1;border-style:none" border="1"><colgroup><col style="width:81.2647%"><col style="width:18.7207%"></colgroup>
+        <tr style="height:6675.23px">
+        <td style="width:100%;border:1.5pt solid white;padding-top:0in;padding-right:5.4pt;padding-bottom:0in;height:6675.23px;line-height:1.3" valign="top" width="1024">
+        <div>
+        <div>
+        <div id="m_1296063660149671946q_35" aria-label="Hide expanded content" aria-expanded="true">
+        <div>&nbsp;</div>
+        </div>
+        </div>
+        <div><u></u>
+        <table style="border-collapse:collapse;width:100.124%;height:198.125px;border-width:0px;background-color:#192f7a;border-style:none" border="1"><colgroup><col style="width:81.2647%"><col style="width:18.7207%"></colgroup>
         <tbody>
         <tr style="height:198.125px">
         <td style="height:198.125px;border-width:0px">
-        <p style="text-align:center">&nbsp; &nbsp;<span style="font-size:36pt"><strong>NEWSLETTER</strong></span></p>
-        <p style="text-align:center"><strong><span style="font-size:24pt">MARCH 2022</span></strong> &nbsp;&nbsp;</p>
+        <p style="text-align:center"><em>&nbsp; &nbsp;</em><span style="font-size:36pt;color:rgb(236,240,241)"><strong>NEWSLETTER</strong></span></p>
+        <p style="text-align:center"><span style="color:rgb(236,240,241)"><strong><span style="font-size:24pt">APRIL 2022</span></strong></span> &nbsp;&nbsp;</p>
         <p>&nbsp;</p>
         </td>
-        <td style="height:198.125px;border-width:0px"><img style="float:right" src="https://ci6.googleusercontent.com/proxy/zMWnz9ITgEnolmMqn2aFWh1dhvpEwvMTEhER1suCdNaySfUte1FN96NiXkswezgKdbTMM2jz5gfliI62_5BBnTIvNvTsAuMabSuyCGjezN_Ok8w=s0-d-e1-ft#https://drive.google.com/uc?id=1fA-vRCJqm8IroGowxcf_FrX1jU95FLbI" alt="Kloudrac - Crunchbase Company Profile &amp; Funding" width="171" height="255" class="CToWUd"></td>
+        <td style="height:198.125px;border-width:0px"><em><img style="float:right" src="https://ci6.googleusercontent.com/proxy/zMWnz9ITgEnolmMqn2aFWh1dhvpEwvMTEhER1suCdNaySfUte1FN96NiXkswezgKdbTMM2jz5gfliI62_5BBnTIvNvTsAuMabSuyCGjezN_Ok8w=s0-d-e1-ft#https://drive.google.com/uc?id=1fA-vRCJqm8IroGowxcf_FrX1jU95FLbI" alt="Kloudrac - Crunchbase Company Profile &amp; Funding" width="171" height="255" class="CToWUd"></em></td>
         </tr>
         </tbody>
         </table>
-        <table style="border-collapse:collapse;width:101.955%" border="0" cellspacing="0" cellpadding="0">
+        <table style="border-collapse:collapse;width:99.4029%" border="0" cellspacing="0" cellpadding="0">
         <tbody>
         <tr style="height:12.4pt">
         <td style="width:100%;border-top:none;border-right:none;border-left:none;border-bottom:2.25pt solid rgb(192,80,77);padding:0in 5.4pt;height:12.4pt" valign="top" width="1002">
-        <p class="MsoNormal"><strong><em><span style="font-size:14.0pt;font-family:'Cambria',serif"><br>Leader’s Speak &nbsp;</span></em></strong><u></u><u></u></p>
+        <p class="MsoNormal"><em><strong><span style="font-size:14.0pt;font-family:'Cambria',serif"><br>Leader’s Speak &nbsp;</span></strong><u></u><u></u></em></p>
         </td>
         </tr>
         </tbody>
         </table>
-        <p class="MsoNormal" style="margin-left:7.1pt;text-align:justify"><u></u><img style="width:190px;height:231px" src="https://ci3.googleusercontent.com/proxy/QzuUiDN8Er5U30TytRg_N_Vxi1NgZnz5rmt7_-bW8qdxFmLY48f-uMuAIl3yCMelUISqUWxD-q2mCeme4CE8z1SDd7Z0WaLzspgqRMl8eNxv2Rs=s0-d-e1-ft#https://drive.google.com/uc?id=1ovYK1VARV4tHuH79XsGinvlH3VGv2JgH" alt="cid:image005.png@01D48CBC.0B5EA7C0" width="138" height="137" align="left" hspace="12" class="CToWUd"><u></u><span style="font-size:12pt">Dear All,</span></p>
+        <p class="MsoNormal" style="margin-left:7.1pt;text-align:justify">&nbsp;</p>
+        <p class="MsoNormal" style="margin-left:7.1pt;text-align:justify"><em><img style="width:190px;height:231px" src="https://ci3.googleusercontent.com/proxy/QzuUiDN8Er5U30TytRg_N_Vxi1NgZnz5rmt7_-bW8qdxFmLY48f-uMuAIl3yCMelUISqUWxD-q2mCeme4CE8z1SDd7Z0WaLzspgqRMl8eNxv2Rs=s0-d-e1-ft#https://drive.google.com/uc?id=1ovYK1VARV4tHuH79XsGinvlH3VGv2JgH" alt="cid:image005.png@01D48CBC.0B5EA7C0" width="138" height="137" align="left" hspace="12" class="CToWUd"></em><span style="font-size:12pt">Dear All,</span></p>
         <div><span style="font-size:12pt"> I hope you and your families are doing well! I am willing to share that we as an individual as well as an organization are keeping one step ahead of success and growing each and every day. </span></div>
         <div>&nbsp;</div>
         <div><span style="font-size:12pt">I am grateful to have you all in my team and want to show my appreciation for your hard work and dedication you are putting everyday&nbsp; in making the organization a successful one.</span></div>
         <div>&nbsp;</div>
-        <div><span style="font-size:12pt"> I am happy to announce that we have been onboarded as a “SALESFORCE AUTHORIZED CLOUD RESELLER” which means we are now authorized to sell the salesforce licenses directly to the customers on our papers. </span></div>
+        <div><span style="font-size:12pt"> I am happy to announce that we have been onboarded as a<strong> “SALESFORCE AUTHORIZED CLOUD RESELLER”</strong> which means we are now authorized to sell the salesforce licenses directly to the customers on our papers. </span></div>
         <div>&nbsp;</div>
         <div><span style="font-size:12pt">This is a big milestone which we have achieved and many more on the way. I would like to congratulate everyone and want to thank each one of you for all your hard-work and support throughout</span></div>
         <div>&nbsp;</div>
-        <div><span style="font-size:12pt">cheers!!&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <strong>&nbsp; Atul Singhal | Co Founder</strong></span></div>
-        <p class="MsoNormal" style="margin-left:7.1pt;text-align:right" align="right"><span style="font-size:14.0pt;font-family:'Cambria',serif">&nbsp;</span><u></u><u></u></p>
-        <table style="border-collapse:collapse;width:100.285%;height:64.125px" border="0" cellspacing="0" cellpadding="0">
-        <tbody>
-        <tr style="height:64.125px">
-        <td style="width:0%;border-top:none;border-right:none;border-left:none;border-bottom:2.25pt solid rgb(192,80,77);padding:0in 5.4pt;height:64.125px" valign="top" width="1006">
-        <p class="MsoNormal"><strong><em><span style="font-size:14.0pt;font-family:'Cambria',serif">&nbsp;New Logos Acquired this Quarter</span></em></strong><u></u></p>
-        </td>
-        </tr>
-        </tbody>
-        </table>
-        <span class="MsoNormal"><span class="MsoNormal"><span style="font-size:14.0pt;font-family:'Cambria',serif"><br></span></span></span>
-        <p class="MsoNormal" style="margin-left:7.1pt"><span style="font-size:14.0pt;font-family:'Cambria',serif">&nbsp;</span><u></u><u></u></p>
-        <table style="border-collapse:collapse;width:100.222%" border="1"><colgroup><col style="width:49.9458%"><col style="width:49.9458%"></colgroup>
+        <div>
+        <table style="border-collapse:collapse;width:100.022%;border-width:0px" border="1"><colgroup><col style="width:65.1156%"><col style="width:34.8856%"></colgroup>
         <tbody>
         <tr>
-        <td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <img src="https://ci3.googleusercontent.com/proxy/mpgU9oru9AOxJ0H5jDrhgo5Bbfcplvq5mPviMLGUMJ_mvKkuO4ydWK_t7B_BPqtp_u47YRTNYa6a_iesbADKdTQoZxH9NOd3kuOEST8mhYANK18=s0-d-e1-ft#https://drive.google.com/uc?id=1lxYAgjDs3nXJ3HDJ0iN88lx--cEh_LpG" alt="" width="256" height="79" class="CToWUd"></td>
-        <td><img src="https://ci4.googleusercontent.com/proxy/2ppo28YUvvwsY72GMjFrytpM6hQAR3tnH6f3QfQc1TY86XWFGFYbm35gDsLaCDg7WTVATojnx1gsEmZbrctaohgaovyx-UIiS1Tskj-V0rnUtwU=s0-d-e1-ft#https://drive.google.com/uc?id=1s05ciL8K_sStUL7oxAsw2H5qcKDmuQxn" alt="" width="324" height="54" class="CToWUd"></td>
+        <td style="border-width:0px">Cheers!!</td>
+        <td style="text-align:center;border-width:0px"><strong>Atul Singhal | Co-Founder</strong></td>
         </tr>
         </tbody>
         </table>
-        <br>
-        <p class="MsoNormal" style="margin-left:7.1pt;text-align:center" align="center"><span style="font-size:14.0pt;font-family:'Cambria',serif">&nbsp;</span><u></u><u></u></p>
-        <p class="MsoNormal" style="margin-right:0in;margin-bottom:12.0pt;margin-left:36.35pt"><span style="font-size:14.0pt;font-family:'Cambria',serif">&nbsp;</span><u></u><u></u></p>
-        <table style="border-collapse:collapse" border="0" cellspacing="0" cellpadding="0">
+        </div>
+        <p class="MsoNormal" style="margin-left:7.1pt;text-align:right" align="right"><em>&nbsp;</em></p>
+        <table style="border-collapse:collapse;width:100.285%;height:28.25px" border="0" cellspacing="0" cellpadding="0">
         <tbody>
-        <tr style="height:14.25pt">
-        <td style="width:754.4pt;border:none;border-bottom:solid #c0504d 2.25pt;padding:0in 5.4pt 0in 5.4pt;height:14.25pt" valign="top" width="1006">
-        <p class="MsoNormal"><strong><em><span style="font-size:14.0pt;font-family:'Cambria',serif">Technical Article by&nbsp; Radhe &amp; team&nbsp;</span></em></strong><u></u></p>
+        <tr style="height:28.25px">
+        <td style="width:0%;border-top:none;border-right:none;border-left:none;border-bottom:2.25pt solid rgb(192,80,77);padding:0in 5.4pt;height:28.25px" valign="top" width="1006">
+        <p class="MsoNormal"><em><strong><span style="font-size:14.0pt;font-family:'Cambria',serif">&nbsp;Bulletin of the Month</span></strong><u></u></em></p>
         </td>
         </tr>
         </tbody>
         </table>
-        <p class="MsoNormal" style="margin-left:29.25pt"><span style="font-size:14.0pt;font-family:'Cambria',serif"><br></span><span style="font-size:12.0pt;font-family:'Cambria',serif">Infogain assisted NTUC Link in identifying a revenue leak for one of their key accounts during Remarketing Campaign execution : </span><u></u><u></u></p>
-        <p class="MsoNormal" style="margin-left:29.25pt"><span style="font-size:14.0pt;font-family:'Cambria',serif">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </span><u></u><u></u><span style="font-size:14.0pt;font-family:'Cambria',serif"><img id="m_3386916906058136907m_-7380952542283019030m_5706355720619803718m_-4411664370936940559Picture_x0020_122" style="width:550px;height:274px" src="https://ci5.googleusercontent.com/proxy/AbqjIRpc213_miRhCGN14QueX7PrwPE1i5DyWbBGgNz6IC_uVrIF0nX8WGe8MkmIZDFTXfKdcrUOuYYIf-ax_pIfkBStM8DCNMoVoe_Uno8e_UA=s0-d-e1-ft#https://drive.google.com/uc?id=1MxBTLxKpmYtnaJb_E6K5gcfv1b-Ralfq" alt="cid:image009.png@01D48CBC.0B5EA7C0" width="901" height="431" class="CToWUd a6T" tabindex="0"><div class="a6S" dir="ltr" style="opacity: 0.01; left: 682.75px; top: 1219.67px;"><div id=":17w" class="T-I J-J5-Ji aQv T-I-ax7 L3 a5q" title="Download" role="button" tabindex="0" aria-label="Download attachment " data-tooltip-class="a1V"><div class="akn"><div class="aSK J-J5-Ji aYr"></div></div></div></div></span></p>
+        <p class="MsoNormal" style="margin-left:7.1pt;text-align:left" align="right"><em><span style="font-size:14.0pt;font-family:'Cambria',serif">&nbsp;<img style="display:block;margin-left:auto;margin-right:auto" src="https://ci5.googleusercontent.com/proxy/NUrZK5HlYln92YbXY6wUqDlYahjz5Fl_pibpnkntISoqTwtLycix1XXJaR4l-JPb3axShBmgTbDtJXiI5C_G_ySmB9ki_hiDOd_vGSHb3ndvQ6g=s0-d-e1-ft#https://drive.google.com/uc?id=1O2xanKjgze22UoJzsD6hrJFwVC0D0edr" alt="" width="482" height="682" class="CToWUd a6T" tabindex="0"><div class="a6S" dir="ltr" style="opacity: 0.01; left: 635.725px; top: 1400.61px;"><div id=":tl" class="T-I J-J5-Ji aQv T-I-ax7 L3 a5q" title="Download" role="button" tabindex="0" aria-label="Download attachment " data-tooltip-class="a1V"><div class="akn"><div class="aSK J-J5-Ji aYr"></div></div></div></div></span></em></p>
         <div dir="ltr" style="opacity:0.01">
-        <div id="m_3386916906058136907:16o" role="button" aria-label="Download attachment ">
+        <div id="m_1296063660149671946:vw" title="Download" role="button" aria-label="Download attachment ">
         <div>
         <div>&nbsp;</div>
         </div>
         </div>
         </div>
         <p>&nbsp;</p>
-        <table style="border-collapse:collapse;width:100.298%;height:52.2604px" border="0" cellspacing="0" cellpadding="0">
+        <p class="MsoNormal" style="margin-left:7.1pt;text-align:left" align="right"><em>&nbsp;</em></p>
+        <table style="border-collapse:collapse;width:98.7395%;height:64.125px" border="0" cellspacing="0" cellpadding="0">
+        <tbody>
+        <tr style="height:64.125px">
+        <td style="width:100%;border-top:none;border-right:none;border-left:none;border-bottom:2.25pt solid rgb(192,80,77);padding:0in 5.4pt;height:64.125px" valign="top" width="1006">
+        <p class="MsoNormal"><em><strong><span style="font-size:14.0pt;font-family:'Cambria',serif">&nbsp;From Saurabh's desk</span></strong><u></u></em></p>
+        </td>
+        </tr>
+        </tbody>
+        </table>
+        <em><span class="MsoNormal"><span class="MsoNormal"><span style="font-size:14.0pt;font-family:'Cambria',serif"><br></span></span></span></em>
+        <p class="MsoNormal" style="margin-left:7.1pt"><span style="font-size:14.0pt;font-family:'Cambria',serif">&nbsp;The experience of working for the Kloudrac for more than six years has given me more knowledge and exposure to growing professionals&nbsp; It's all about trust and responsibility.</span></p>
+        <p class="MsoNormal" style="margin-left:7.1pt"><span style="font-size:14.0pt;font-family:'Cambria',serif"> My organization believed in me and gave me an opportunity in earlier stages that helped me to reach this position in joinery of 6+ years only&nbsp; My message to junior is to always be ready to take on challenges that will make you stronger, to put yourself in a challenging place that will make you grow.</span></p>
+        <table style="border-collapse:collapse;width:97.0829%;height:185.396px;border-width:0px;border-spacing:0px" border="1"><colgroup><col style="width:70.9181%"><col style="width:29.1328%"></colgroup>
+        <tbody>
+        <tr style="height:185.396px">
+        <td style="vertical-align:top;height:185.396px;border-width:0px;padding:0px">
+        <p>&nbsp;</p>
+        <p><em><strong><span style="font-size:14pt">Thank you All&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span></strong></em></p>
+        </td>
+        <td style="height:185.396px;text-align:left;vertical-align:top;border-width:0px;padding:0px">
+        <p><em><img style="display:block;margin-left:auto;margin-right:auto" src="https://ci3.googleusercontent.com/proxy/rnWpCmBv-XpY5ww5llLZLAO39X5VxsVSL_jyKfCa0NV7-jl7nnomFkNGIjn-DMvhuhYMht9pcxSoow5_lTn73qNAkT6pvQ3jFapp2JEbPat2eaM=s0-d-e1-ft#https://drive.google.com/uc?id=1jYCCweGg4rNMsXLUY1C_Yxaa3s659U0T" alt="" width="156" height="158" class="CToWUd a6T" tabindex="0"><div class="a6S" dir="ltr" style="opacity: 0.01; left: 755.463px; top: 1862.94px;"><div id=":tf" class="T-I J-J5-Ji aQv T-I-ax7 L3 a5q" title="Download" role="button" tabindex="0" aria-label="Download attachment " data-tooltip-class="a1V"><div class="akn"><div class="aSK J-J5-Ji aYr"></div></div></div></div></em></p>
+        <div dir="ltr" style="opacity:0.01">
+        <div id="m_1296063660149671946:vx" title="Download" role="button" aria-label="Download attachment ">
+        <div>
+        <div>&nbsp;</div>
+        </div>
+        </div>
+        </div>
+        <p>&nbsp;</p>
+        <p style="text-align:center"><em><strong>Saurabh Rastogi</strong></em></p>
+        <p style="text-align:center"><em>Salesforce Assosciate Technical Architect&nbsp;&nbsp;</em></p>
+        </td>
+        </tr>
+        </tbody>
+        </table>
+        <p>&nbsp;</p>
+        <table style="border-collapse:collapse;width:100.285%;height:64.125px" border="0" cellspacing="0" cellpadding="0">
+        <tbody>
+        <tr style="height:64.125px">
+        <td style="width:0%;border-top:none;border-right:none;border-left:none;border-bottom:2.25pt solid rgb(192,80,77);padding:0in 5.4pt;height:64.125px" valign="top" width="1006">
+        <p class="MsoNormal"><em><strong><span style="font-size:14.0pt;font-family:'Cambria',serif">&nbsp;New Logos Acquired this Quarter</span></strong><u></u></em></p>
+        </td>
+        </tr>
+        </tbody>
+        </table>
+        <p class="MsoNormal" style="margin-left:7.1pt"><em><span style="font-size:14.0pt;font-family:'Cambria',serif"><span class="MsoNormal">Existing Logos:</span></span></em></p>
+        <table style="border-collapse:collapse;width:94.93%;border-width:0px;background-color:#ffffff" border="1"><colgroup><col style="width:35.6103%"><col style="width:36.2444%"><col style="width:28.2135%"></colgroup>
+        <tbody>
+        <tr>
+        <td style="text-align:center;border-width:0px"><strong><em>Logistic</em></strong></td>
+        <td style="text-align:center;border-width:0px"><strong><em>Real estate</em></strong></td>
+        <td style="text-align:center;border-width:0px"><strong><em>Automobile</em></strong></td>
+        </tr>
+        <tr>
+        <td style="text-align:center;border-width:0px">&nbsp;<img src="https://ci6.googleusercontent.com/proxy/N93hnRn2FpgExom8dpOjHe91yogv3K5jJCmCIveF1T21AQTQgl_wuue1HPjj7VRLZIsZJ14DLy29TaYxs9aErAPYjpqd6BkuWH13GYzaQSieoA4=s0-d-e1-ft#https://drive.google.com/uc?id=1VpLq_RrrI6nvkMn3coNg1MbDEvrEg_ml" alt="" width="183" height="95" class="CToWUd"></td>
+        <td style="text-align:center;border-width:0px"><img src="https://ci5.googleusercontent.com/proxy/Lq33VFIV4QWx4vjzPvRDJMxb66BQ5lVHgTkgW9sCRl9mMVygSEtzaP8kmtrocOlzBvmYGOoXQOHGf3jS1EIIs7RGiH2mSK1t9Lp3Mgzx-doVSdE=s0-d-e1-ft#https://drive.google.com/uc?id=19_4txwC1Q8pT2kQBMmut5PdR9GfsasA8" alt="" width="211" height="158" class="CToWUd a6T" tabindex="0"><div class="a6S" dir="ltr" style="opacity: 0.01; left: 515.5px; top: 2307.71px;"><div id=":tk" class="T-I J-J5-Ji aQv T-I-ax7 L3 a5q" title="Download" role="button" tabindex="0" aria-label="Download attachment " data-tooltip-class="a1V"><div class="akn"><div class="aSK J-J5-Ji aYr"></div></div></div></div>
+        <div dir="ltr" style="opacity:0.01">
+        <div id="m_1296063660149671946:vy" title="Download" role="button" aria-label="Download attachment ">
+        <div>
+        <div>&nbsp;</div>
+        </div>
+        </div>
+        </div>
+        </td>
+        <td style="text-align:center;border-width:0px"><img src="https://ci4.googleusercontent.com/proxy/Oy-jJSHy_iJaO9LGgLQCLg-VrhDgDsSjMrj5e6E4q8cQpawIhrKBCv_QAUDMhZulLadiVLeRd_yq4NRswa8yCAC5U2w38JZdGwnXHHfuuMTN-Hk=s0-d-e1-ft#https://drive.google.com/uc?id=1uuDfyrylLs455e7mj80B-qV4_dk4ofSs" alt="" width="201" height="109" class="CToWUd a6T" tabindex="0"><div class="a6S" dir="ltr" style="opacity: 0.01; left: 801.5px; top: 2283.21px;"><div id=":th" class="T-I J-J5-Ji aQv T-I-ax7 L3 a5q" title="Download" role="button" tabindex="0" aria-label="Download attachment " data-tooltip-class="a1V"><div class="akn"><div class="aSK J-J5-Ji aYr"></div></div></div></div>
+        <div dir="ltr" style="opacity:0.01">
+        <div id="m_1296063660149671946:vz" title="Download" role="button" aria-label="Download attachment ">
+        <div>
+        <div>&nbsp;</div>
+        </div>
+        </div>
+        </div>
+        </td>
+        </tr>
+        <tr>
+        <td style="border-width:0px;background-color:rgb(255,255,255)"><img style="display:block;margin-left:auto;margin-right:auto" src="https://ci4.googleusercontent.com/proxy/2ppo28YUvvwsY72GMjFrytpM6hQAR3tnH6f3QfQc1TY86XWFGFYbm35gDsLaCDg7WTVATojnx1gsEmZbrctaohgaovyx-UIiS1Tskj-V0rnUtwU=s0-d-e1-ft#https://drive.google.com/uc?id=1s05ciL8K_sStUL7oxAsw2H5qcKDmuQxn" alt="" width="288" height="48" class="CToWUd"></td>
+        <td style="border-width:0px"><img style="display:block;margin-left:auto;margin-right:auto" src="https://ci5.googleusercontent.com/proxy/QtNj0XfFaoFZmoDJqL06cOFxxUGVPEoWUY-uHmmNXA0tcQkYA_te9tusUZHpys4VG-1ah3vinnNmamnNiTEXPFu5NWHt4mPsVfL_5ce5S5uCiXI=s0-d-e1-ft#https://drive.google.com/uc?id=1LTtbf_eUo4ui2sDxonboSUFFCaG4pnf7" alt="" width="330" height="120" class="CToWUd a6T" tabindex="0"><div class="a6S" dir="ltr" style="opacity: 0.01; left: 575px; top: 2450.71px;"><div id=":ts" class="T-I J-J5-Ji aQv T-I-ax7 L3 a5q" title="Download" role="button" tabindex="0" aria-label="Download attachment " data-tooltip-class="a1V"><div class="akn"><div class="aSK J-J5-Ji aYr"></div></div></div></div>
+        <div dir="ltr" style="opacity:0.01">
+        <div id="m_1296063660149671946:w0" title="Download" role="button" aria-label="Download attachment ">
+        <div>
+        <div>&nbsp;</div>
+        </div>
+        </div>
+        </div>
+        </td>
+        <td style="border-width:0px"><img style="display:block;margin-left:auto;margin-right:auto" src="https://ci5.googleusercontent.com/proxy/vsI5o-LFj9ndE35-luIHY3umK-iYhHaDYdcVqThTAdSPMU2rM0HHBw89z3bPxMaQ1u0xEuzrCaBYx2tDawNDUu53QnYMlpKUjbuMQsjsYLTwJsg=s0-d-e1-ft#https://drive.google.com/uc?id=1rrgxtklATJCOfpL5AT2Q41Z5I7Q0uI23" alt="" width="248" height="100" class="CToWUd a6T" tabindex="0"><div class="a6S" dir="ltr" style="opacity: 0.01; left: 825px; top: 2440.71px;"><div id=":td" class="T-I J-J5-Ji aQv T-I-ax7 L3 a5q" title="Download" role="button" tabindex="0" aria-label="Download attachment " data-tooltip-class="a1V"><div class="akn"><div class="aSK J-J5-Ji aYr"></div></div></div></div>
+        <div dir="ltr" style="opacity:0.01">
+        <div id="m_1296063660149671946:w1" title="Download" role="button" aria-label="Download attachment ">
+        <div>
+        <div>&nbsp;</div>
+        </div>
+        </div>
+        </div>
+        </td>
+        </tr>
+        <tr>
+        <td style="border-width:0px"><img style="display:block;margin-left:auto;margin-right:auto" src="https://ci3.googleusercontent.com/proxy/mpgU9oru9AOxJ0H5jDrhgo5Bbfcplvq5mPviMLGUMJ_mvKkuO4ydWK_t7B_BPqtp_u47YRTNYa6a_iesbADKdTQoZxH9NOd3kuOEST8mhYANK18=s0-d-e1-ft#https://drive.google.com/uc?id=1lxYAgjDs3nXJ3HDJ0iN88lx--cEh_LpG" alt="" width="256" height="79" class="CToWUd"></td>
+        <td style="border-width:0px;background-color:rgb(255,255,255)"><img style="display:block;margin-left:auto;margin-right:auto" src="https://ci3.googleusercontent.com/proxy/nyyv4f5nFmp2B6jjRSEovqIPJkKxN1wzX2T9qBlmlwFxoOvkZz6SpE4hnGBv6f_uacsN5_R4ywUVZ_uBNVXiU7qaA7Gyx_0MrfGOgnuQHTr9hWc=s0-d-e1-ft#https://drive.google.com/uc?id=1HnZI8EATslCCSkd0Olhp2edRrnTQB40_" alt="" width="159" height="159" class="CToWUd a6T" tabindex="0"><div class="a6S" dir="ltr" style="opacity: 0.01; left: 489.5px; top: 2636.61px;"><div id=":tp" class="T-I J-J5-Ji aQv T-I-ax7 L3 a5q" title="Download" role="button" tabindex="0" aria-label="Download attachment " data-tooltip-class="a1V"><div class="akn"><div class="aSK J-J5-Ji aYr"></div></div></div></div>
+        <div dir="ltr" style="opacity:0.01">
+        <div id="m_1296063660149671946:w2" title="Download" role="button" aria-label="Download attachment ">
+        <div>
+        <div>&nbsp;</div>
+        </div>
+        </div>
+        </div>
+        </td>
+        <td style="border-width:0px"><img style="display:block;margin-left:auto;margin-right:auto" src="https://ci3.googleusercontent.com/proxy/z9SLTpGptv_bXzSa3gmZV3FTMM3j41G17owiTuX9rC61D5OqghnuT94gE60VVx4-D_J7KzcdqrZbI0X4WYK2awSZ64Rl_SxtxYOBI8i4X4BorLI=s0-d-e1-ft#https://drive.google.com/uc?id=17j4uF4scENuSre8mHRXBYT41nH4lNPgW" alt="" width="175" height="175" class="CToWUd a6T" tabindex="0"><div class="a6S" dir="ltr" style="opacity: 0.01; left: 788.5px; top: 2644.61px;"><div id=":tg" class="T-I J-J5-Ji aQv T-I-ax7 L3 a5q" title="Download" role="button" tabindex="0" aria-label="Download attachment " data-tooltip-class="a1V"><div class="akn"><div class="aSK J-J5-Ji aYr"></div></div></div></div>
+        <div dir="ltr" style="opacity:0.01">
+        <div id="m_1296063660149671946:w3" title="Download" role="button" aria-label="Download attachment ">
+        <div>
+        <div>&nbsp;</div>
+        </div>
+        </div>
+        </div>
+        </td>
+        </tr>
+        </tbody>
+        </table>
+        <p class="MsoNormal" style="margin-left:7.1pt"><span style="font-size:14.0pt;font-family:'Cambria',serif">&nbsp;</span><u></u><u></u></p>
+        <table style="border-collapse:collapse;width:99.7346%" border="0" cellspacing="0" cellpadding="0">
+        <tbody>
+        <tr style="height:14.25pt">
+        <td style="width:100%;border-top:none;border-right:none;border-left:none;border-bottom:2.25pt solid rgb(192,80,77);padding:0in 5.4pt;height:14.25pt" valign="top" width="1006">
+        <p class="MsoNormal"><strong><em><span style="font-size:14.0pt;font-family:'Cambria',serif">Upcoming Talents:</span></em></strong><u></u></p>
+        </td>
+        </tr>
+        </tbody>
+        </table>
+        <p>&nbsp;</p>
+        <table style="border-collapse:collapse;width:100.164%;border-width:0px" border="1"><colgroup><col style="width:33.2661%"><col style="width:33.2661%"><col style="width:33.2661%"></colgroup>
+        <tbody>
+        <tr>
+        <td style="text-align:center;border-width:0px">
+        <p><img src="https://ci3.googleusercontent.com/proxy/yEC8d-1rx_F8KsOsadZII2S1f35CRh_x_WD9ULpGxvz_LiITxj4zhnpRvKpoevrEACrXHHHpO9f7e2acgfUXTT-RjqkF8EGe60pR53gYH-usegw=s0-d-e1-ft#https://drive.google.com/uc?id=19nGHKagdY133G9HdaUUvA1vdSvLjV1ag" alt="" width="144" height="159" class="CToWUd"></p>
+        <p><strong>Akash Tomar</strong></p>
+        <ul>
+        <li style="text-align:center"><span style="color:rgb(53,152,219)">AWS Integration</span></li>
+        <li style="text-align:center"><span style="color:rgb(53,152,219)">Reports Scheduler (Component)</span></li>
+        <li style="text-align:center"><span style="color:rgb(53,152,219)">Google Drive Integration</span></li>
+        <li style="text-align:center"><span style="color:rgb(53,152,219)">Soap Integration</span></li>
+        <li style="text-align:center"><span style="color:rgb(53,152,219)">Facebook Integration</span></li>
+        <li style="text-align:center"><span style="color:rgb(53,152,219)">One Drive Integration</span></li>
+        </ul>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        </td>
+        <td style="text-align:center;vertical-align:top;border-width:0px">
+        <p><img src="https://ci5.googleusercontent.com/proxy/hEeovvll6jNr9z8dtfGuxkkbElWT3R01g-v6eQt-Ea3DF5YtldofhA7oWepAbLc-GKgeboF3JEmQsqn8LwpU79TCn0xTcpydDmkGFWJ8n2rwfnY=s0-d-e1-ft#https://drive.google.com/uc?id=1-TlEbzzlNqjre-xRvM5v4IcbBh5A9Jgb" alt="" width="136" height="160" class="CToWUd"></p>
+        <p style="text-align:center"><strong>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;Abhishek kumar&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</strong></p>
+        <ul>
+        <li style="text-align:center"><span style="color:rgb(53,152,219)">AWS Zoom</span></li>
+        <li style="text-align:center"><span style="color:rgb(53,152,219)">Filter Component</span></li>
+        <li style="text-align:center"><span style="color:rgb(53,152,219)">Custom Lookup Component</span></li>
+        </ul>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        </td>
+        <td style="border-width:0px;vertical-align:top">
+        <p style="text-align:center">&nbsp; <img src="https://ci5.googleusercontent.com/proxy/BwCmlqDCpCXtzVla-0SpJ7YqtA-lXHCMB2U6pwV97_qlN3r-FNCvSTI_KtDVElDRjoJXHMZhO5Kt7D-WCdidud08vKRvWtdr6PpS6xuGwcZ3GMg=s0-d-e1-ft#https://drive.google.com/uc?id=1cNBffsyXQwTQJ-ksaFbw-Ziyt6DOIvHR" alt="" width="155" height="163" class="CToWUd"></p>
+        <p style="text-align:center"><strong>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Kewal Sharma&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</strong></p>
+        <ul>
+        <li style="text-align:center"><span style="color:rgb(53,152,219)">Telegram Integration</span></li>
+        <li style="text-align:center"><span style="color:rgb(53,152,219)">Twilio Integration&nbsp;</span></li>
+        <li style="text-align:center"><span style="color:rgb(53,152,219)">License Generation &amp;&nbsp; Validation&nbsp;</span></li>
+        <li style="text-align:center"><span style="color:rgb(53,152,219)">Custom time based Actions</span></li>
+        <li style="text-align:center"><span style="color:rgb(53,152,219)">Email to Object Creation with Dynamic Field mapping</span></li>
+        </ul>
+        </td>
+        </tr>
+        <tr>
+        <td style="border-width:0px">
+        <p><img style="display:block;margin-left:auto;margin-right:auto" src="https://ci6.googleusercontent.com/proxy/3-QH_eRzKmcRCPeUSk5hmH2UI7_cp8sq0l5vB_KEP4eetJmXCPFanB0Uz9sUyDlPTyZZkbcAEejtZN53wvlhn46BTl6xXwQ_DXUkuSSwvmMv7Sw=s0-d-e1-ft#https://drive.google.com/uc?id=1VgFZOTG_qVC4ShsAI0xW7Seag1YrzjtR" alt="" width="166" height="265" class="CToWUd a6T" tabindex="0"><div class="a6S" dir="ltr" style="opacity: 0.01; left: 182.562px; top: 3431.11px;"><div id=":tq" class="T-I J-J5-Ji aQv T-I-ax7 L3 a5q" role="button" tabindex="0" aria-label="Download attachment " data-tooltip-class="a1V" data-tooltip="Download"><div class="akn"><div class="aSK J-J5-Ji aYr"></div></div></div></div></p>
+        <div dir="ltr" style="opacity:0.01">
+        <div id="m_1296063660149671946:w4" title="Download" role="button" aria-label="Download attachment ">
+        <div>
+        <div>&nbsp;</div>
+        </div>
+        </div>
+        </div>
+        <p>&nbsp;</p>
+        <p style="text-align:center"><strong>Ankit Kumar Yadav</strong></p>
+        </td>
+        <td style="border-width:0px;text-align:center">
+        <p><img style="display:block;margin-left:auto;margin-right:auto" src="https://ci4.googleusercontent.com/proxy/HxCotui6ZRMsUIXusEEvxUTfn4iqfVtjIWaHqSujCHcIkahSSajfwvQazCK6KQtNFd3OO4td8Y3WtevITEsM3PKSc5JySCzZnj7ruKExCamAuYQ=s0-d-e1-ft#https://drive.google.com/uc?id=14Rv8z_2atXfbNPeKZDuhW1qACocMSYlk" alt="" width="171" height="258" class="CToWUd a6T" tabindex="0"><div class="a6S" dir="ltr" style="opacity: 0.01; left: 476.2px; top: 3427.61px;"><div id=":to" class="T-I J-J5-Ji aQv T-I-ax7 L3 a5q" title="Download" role="button" tabindex="0" aria-label="Download attachment " data-tooltip-class="a1V"><div class="akn"><div class="aSK J-J5-Ji aYr"></div></div></div></div></p>
+        <div dir="ltr" style="opacity:0.01">
+        <div id="m_1296063660149671946:w5" role="button" aria-label="Download attachment ">
+        <div>
+        <div>&nbsp;</div>
+        </div>
+        </div>
+        </div>
+        <p>&nbsp;</p>
+        <p><strong>Ashish Diwedi</strong></p>
+        </td>
+        <td style="vertical-align:top;border-width:0px">
+        <p><img style="display:block;margin-left:auto;margin-right:auto" src="https://ci6.googleusercontent.com/proxy/S0GjFVTMLuMfaioix8M2ATxDOQDgrnMJxmkZnNBoqCZkGkavHio90SRm44SkQl5Kk6aifJu0vYYhLRjXXfrfRDa1Wx1-C0rzX8mB-zdtgXNnVbA=s0-d-e1-ft#https://drive.google.com/uc?id=1I1WSeUPswq8oY7XrgVOVN1RlVPUq0vdX" alt="" width="184" height="258" class="CToWUd a6T" tabindex="0"><div class="a6S" dir="ltr" style="opacity: 0.01; left: 773.85px; top: 3424.11px;"><div id=":tr" class="T-I J-J5-Ji aQv T-I-ax7 L3 a5q" title="Download" role="button" tabindex="0" aria-label="Download attachment " data-tooltip-class="a1V"><div class="akn"><div class="aSK J-J5-Ji aYr"></div></div></div></div></p>
+        <div dir="ltr" style="opacity:0.01">
+        <div id="m_1296063660149671946:w6" title="Download" role="button" aria-label="Download attachment ">
+        <div>
+        <div>&nbsp;</div>
+        </div>
+        </div>
+        </div>
+        <p>&nbsp;</p>
+        <p style="text-align:center"><strong>Anil Kumar</strong></p>
+        </td>
+        </tr>
+        </tbody>
+        </table>
+        <table style="border-collapse:collapse;width:100.164%;border-width:0px" border="1"><colgroup><col style="width:99.8992%"></colgroup>
+        <tbody>
+        <tr>
+        <td style="text-align:center;border-width:0px">
+        <p style="text-align:left"><strong>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<span style="color:rgb(132,63,161);font-size:14pt"><span style="color:rgb(53,152,219)">They have created two fully working applications in 15 days.</span></span></strong></p>
+        <p style="text-align:left"><span style="color:rgb(45,194,107)"><strong>Dear All,</strong></span></p>
+        <p style="text-align:left"><span style="color:rgb(45,194,107)"><strong>We have received an abundance of positive feedback regarding your recent performance from your managers. We would like to appreciate you for your remarkable performance. The enthusiasm and dedication with which you work is commendable. Please continue with what you are doing and reach for better everyday.</strong></span></p>
+        </td>
+        </tr>
+        </tbody>
+        </table>
+        <p>&nbsp;</p>
+        <table style="border-collapse:collapse;width:99.4029%" border="0" cellspacing="0" cellpadding="0">
+        <tbody>
+        <tr style="height:14.25pt">
+        <td style="width:100%;border-top:none;border-right:none;border-left:none;border-bottom:2.25pt solid rgb(192,80,77);padding:0in 5.4pt;height:14.25pt" valign="top" width="1006">
+        <p class="MsoNormal"><strong><em><span style="font-size:14.0pt;font-family:'Cambria',serif">Technical Article by&nbsp; Radhe &amp; team :Arista</span></em></strong><u></u></p>
+        </td>
+        </tr>
+        </tbody>
+        </table>
+        <p class="MsoNormal" style="margin-left:29.25pt;text-align:left"><span style="font-family:Cambria,serif"><span style="font-size:16px"><strong>Project: Arista Community Cloud</strong></span></span><u></u></p>
+        <p class="MsoNormal" style="margin-left:29.25pt;text-align:left"><span style="font-family:Cambria,serif"><span style="font-size:16px">Experience Cloud Implementation With Coveo Search Integration</span></span></p>
+        <p class="MsoNormal" style="margin-left:29.25pt;text-align:left">&nbsp;</p>
+        <p class="MsoNormal" style="margin-left:29.25pt"><span style="font-size:14.0pt;font-family:'Cambria',serif">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </span><u></u><u></u><span style="font-size:14.0pt;font-family:'Cambria',serif"><img id="m_1296063660149671946m_-6978852226866047534m_3386916906058136907m_-7380952542283019030m_5706355720619803718m_-4411664370936940559Picture_x0020_122" style="width:550px;height:274px" src="https://ci5.googleusercontent.com/proxy/AbqjIRpc213_miRhCGN14QueX7PrwPE1i5DyWbBGgNz6IC_uVrIF0nX8WGe8MkmIZDFTXfKdcrUOuYYIf-ax_pIfkBStM8DCNMoVoe_Uno8e_UA=s0-d-e1-ft#https://drive.google.com/uc?id=1MxBTLxKpmYtnaJb_E6K5gcfv1b-Ralfq" alt="cid:image009.png@01D48CBC.0B5EA7C0" width="901" height="431" class="CToWUd a6T" tabindex="0"><div class="a6S" dir="ltr" style="opacity: 0.01; left: 682.75px; top: 4081.31px;"><div id=":te" class="T-I J-J5-Ji aQv T-I-ax7 L3 a5q" role="button" tabindex="0" aria-label="Download attachment " data-tooltip-class="a1V" data-tooltip="Download"><div class="akn"><div class="aSK J-J5-Ji aYr"></div></div></div></div></span></p>
+        <p class="MsoNormal" style="margin-left:29.25pt">&nbsp;</p>
+        <div dir="ltr" style="opacity:0.01">
+        <div id="m_1296063660149671946:w7" title="Download" role="button" aria-label="Download attachment ">
+        <div>
+        <div>&nbsp;</div>
+        </div>
+        </div>
+        </div>
+        <p>&nbsp;</p>
+        <div dir="ltr" style="opacity:0.01">
+        <div id="m_1296063660149671946m_-6978852226866047534:17w" title="Download" role="button" aria-label="Download attachment ">
+        <div>
+        <div>&nbsp;</div>
+        </div>
+        </div>
+        </div>
+        <p>&nbsp;</p>
+        <div dir="ltr" style="opacity:0.01">
+        <div id="m_1296063660149671946m_-6978852226866047534m_3386916906058136907:16o" role="button" aria-label="Download attachment ">
+        <div>
+        <div>&nbsp;</div>
+        </div>
+        </div>
+        </div>
+        <p>&nbsp;</p>
+        <table style="border-collapse:collapse;width:99.0712%;height:52.2604px" border="0" cellspacing="0" cellpadding="0">
         <tbody>
         <tr style="height:52.2604px">
-        <td style="width:0%;border-top:none;border-right:none;border-left:none;border-bottom:1.5pt solid rgb(250,191,143);padding:0in 5.4pt;height:52.2604px" valign="top" width="1032">
-        <p class="MsoNormal"><strong><span style="font-size:14.0pt;font-family:'Cambria',serif">&nbsp;Image Gallary</span></strong><u></u></p>
+        <td style="width:100%;border-top:none;border-right:none;border-left:none;border-bottom:1.5pt solid rgb(250,191,143);padding:0in 5.4pt;height:52.2604px" valign="top" width="1032">
+        <p class="MsoNormal"><strong><span style="font-size:14.0pt;font-family:'Cambria',serif">&nbsp;<em>Applaud :</em></span><em><span style="font-size:14.0pt;font-family:'Cambria',serif">Tenure with the Organization</span></em></strong><u></u></p>
         </td>
         </tr>
         </tbody>
         </table>
         <p class="MsoNormal" style="margin-left:7.1pt;text-align:justify"><span style="font-size:12.0pt;font-family:'Cambria',serif">&nbsp;</span></p>
-        <table style="border-collapse:collapse;width:100.215%;height:275.2px;border-width:0px;border-style:dotted" border="1"><colgroup><col style="width:20%"><col style="width:20%"><col style="width:20%"><col style="width:20%"><col style="width:20%"></colgroup>
+        </div>
+        </div>
+        <table style="border-collapse:collapse;width:99.7184%;border-width:0px" border="1"><colgroup><col style="width:33.3664%"><col style="width:33.3664%"><col style="width:33.3664%"></colgroup>
         <tbody>
-        <tr style="height:275.2px">
-        <td style="height:275.2px;border-width:0px"><img style="width:151px;height:231px" src="https://ci5.googleusercontent.com/proxy/9Ub-1YXQt11aEUEbX1zIhfoMEoklTEcaFRc_MvfnLK54Lc8oGzOiXQsv26WjosOG3zDSHmboJpBIaSlM2ks2k30JROmkSc4wPiWuX9pHpr4KQBEjvf_SAq6ZJg7AlKDjcNAFoTYm1ZKq88_ZwOZtYiBLAWW2TQ=s0-d-e1-ft#https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxxH0sMuT0W5VkfPbDIGfGbPj4m9hAQS0fNQ&amp;usqp=CAU" alt="cid:image011.jpg@01D48CBC.0B5EA7C0" width="134" height="205" align="left" hspace="12" class="CToWUd a6T" tabindex="0"><div class="a6S" dir="ltr" style="opacity: 0.01; left: 118px; top: 1616.48px;"><div id=":17x" class="T-I J-J5-Ji aQv T-I-ax7 L3 a5q" title="Download" role="button" tabindex="0" aria-label="Download attachment " data-tooltip-class="a1V"><div class="akn"><div class="aSK J-J5-Ji aYr"></div></div></div></div>
+        <tr>
+        <td style="border-width:0px">
+        <p><img style="display:block;margin-left:auto;margin-right:auto" src="https://ci3.googleusercontent.com/proxy/LF4m4ugVkmq8UimF1zuQIQ5p2LlTN1LRGA1q72PBzd3hwFDP18rcQU59Z4pCVkiHRDFmu03D-h-jhLm8ABd_kF0N7aQ4WFjUuz8ZUGtnBsxtm3Y=s0-d-e1-ft#https://drive.google.com/uc?id=1B-n_I5QMqhmW4_6-KRQ8yjCGW3ucW0DW" alt="" width="215" height="273" class="CToWUd a6T" tabindex="0"><div class="a6S" dir="ltr" style="opacity: 0.01; left: 206.562px; top: 4647.51px;"><div id=":tn" class="T-I J-J5-Ji aQv T-I-ax7 L3 a5q" role="button" tabindex="0" aria-label="Download attachment " data-tooltip-class="a1V" data-tooltip="Download"><div class="akn"><div class="aSK J-J5-Ji aYr"></div></div></div></div></p>
         <div dir="ltr" style="opacity:0.01">
-        <div id="m_3386916906058136907:16p" title="Download" role="button" aria-label="Download attachment ">
+        <div id="m_1296063660149671946:w8" role="button" aria-label="Download attachment ">
         <div>
         <div>&nbsp;</div>
         </div>
         </div>
         </div>
+        <p>&nbsp;</p>
+        <p style="text-align:center">&nbsp; &nbsp; &nbsp;<strong> Abhishek Bhardwaj</strong></p>
+        <p style="text-align:center">Sr. Software Engineer</p>
+        <p style="text-align:center">(1 year)</p>
         </td>
-        <td style="height:275.2px;border-width:0px"><img style="width:151px;height:231px" src="https://ci5.googleusercontent.com/proxy/9Ub-1YXQt11aEUEbX1zIhfoMEoklTEcaFRc_MvfnLK54Lc8oGzOiXQsv26WjosOG3zDSHmboJpBIaSlM2ks2k30JROmkSc4wPiWuX9pHpr4KQBEjvf_SAq6ZJg7AlKDjcNAFoTYm1ZKq88_ZwOZtYiBLAWW2TQ=s0-d-e1-ft#https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxxH0sMuT0W5VkfPbDIGfGbPj4m9hAQS0fNQ&amp;usqp=CAU" alt="cid:image011.jpg@01D48CBC.0B5EA7C0" width="134" height="205" align="left" hspace="12" class="CToWUd a6T" tabindex="0"><div class="a6S" dir="ltr" style="opacity: 0.01; left: 339.237px; top: 1616.48px;"><div id=":17y" class="T-I J-J5-Ji aQv T-I-ax7 L3 a5q" title="Download" role="button" tabindex="0" aria-label="Download attachment " data-tooltip-class="a1V"><div class="akn"><div class="aSK J-J5-Ji aYr"></div></div></div></div>
+        <td style="border-width:0px">
+        <p><img style="display:block;margin-left:auto;margin-right:auto" src="https://ci4.googleusercontent.com/proxy/y4LtFf_isV_rLoOVClSJUnUhYopCtm4NoUodEwGAl8EFSpgJmWiGLj7EXys83jjQj3P4Qo3X1zIUO-KF6mYl-cURcmM84kCSTupY9oBu9NXiLFY=s0-d-e1-ft#https://drive.google.com/uc?id=1X9ZKb74aSE93YPktqpOLH42BIEn1K95W" alt="" width="210" height="260" class="CToWUd a6T" tabindex="0"><div class="a6S" dir="ltr" style="opacity: 0.01; left: 494.188px; top: 4641.01px;"><div id=":ti" class="T-I J-J5-Ji aQv T-I-ax7 L3 a5q" title="Download" role="button" tabindex="0" aria-label="Download attachment " data-tooltip-class="a1V"><div class="akn"><div class="aSK J-J5-Ji aYr"></div></div></div></div></p>
         <div dir="ltr" style="opacity:0.01">
-        <div id="m_3386916906058136907:16q" role="button" aria-label="Download attachment ">
+        <div id="m_1296063660149671946:w9" title="Download" role="button" aria-label="Download attachment ">
         <div>
         <div>&nbsp;</div>
         </div>
         </div>
         </div>
+        <p>&nbsp;</p>
+        <p style="text-align:center">&nbsp;<strong>Harshita Chouhan</strong></p>
+        <p style="text-align:center">&nbsp; &nbsp; &nbsp; &nbsp; Salesforce Developer&nbsp;</p>
+        <p style="text-align:center">(1 year)</p>
         </td>
-        <td style="height:275.2px;border-width:0px"><img style="width:149px;height:227px" src="https://ci5.googleusercontent.com/proxy/9Ub-1YXQt11aEUEbX1zIhfoMEoklTEcaFRc_MvfnLK54Lc8oGzOiXQsv26WjosOG3zDSHmboJpBIaSlM2ks2k30JROmkSc4wPiWuX9pHpr4KQBEjvf_SAq6ZJg7AlKDjcNAFoTYm1ZKq88_ZwOZtYiBLAWW2TQ=s0-d-e1-ft#https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxxH0sMuT0W5VkfPbDIGfGbPj4m9hAQS0fNQ&amp;usqp=CAU" alt="cid:image011.jpg@01D48CBC.0B5EA7C0" width="134" height="205" align="left" hspace="12" class="CToWUd"></td>
-        <td style="height:275.2px;border-width:0px"><img style="width:149px;height:228px" src="https://ci5.googleusercontent.com/proxy/9Ub-1YXQt11aEUEbX1zIhfoMEoklTEcaFRc_MvfnLK54Lc8oGzOiXQsv26WjosOG3zDSHmboJpBIaSlM2ks2k30JROmkSc4wPiWuX9pHpr4KQBEjvf_SAq6ZJg7AlKDjcNAFoTYm1ZKq88_ZwOZtYiBLAWW2TQ=s0-d-e1-ft#https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxxH0sMuT0W5VkfPbDIGfGbPj4m9hAQS0fNQ&amp;usqp=CAU" alt="cid:image011.jpg@01D48CBC.0B5EA7C0" width="134" height="205" align="left" hspace="12" class="CToWUd"></td>
-        <td style="height:275.2px;border-width:0px"><img style="width:139px;height:212px" src="https://ci5.googleusercontent.com/proxy/9Ub-1YXQt11aEUEbX1zIhfoMEoklTEcaFRc_MvfnLK54Lc8oGzOiXQsv26WjosOG3zDSHmboJpBIaSlM2ks2k30JROmkSc4wPiWuX9pHpr4KQBEjvf_SAq6ZJg7AlKDjcNAFoTYm1ZKq88_ZwOZtYiBLAWW2TQ=s0-d-e1-ft#https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxxH0sMuT0W5VkfPbDIGfGbPj4m9hAQS0fNQ&amp;usqp=CAU" alt="cid:image011.jpg@01D48CBC.0B5EA7C0" width="134" height="205" align="left" hspace="12" class="CToWUd"></td>
+        <td style="border-width:0px">
+        <p><img style="display:block;margin-left:auto;margin-right:auto" src="https://ci3.googleusercontent.com/proxy/lRsey49SiGvLsFhQk2OLUjE2bpMh-fVsO9-npUggpizSu99spd2dqPsQw2uirMNIjAY97A0I63wN4Tudg9kx1xYhjuQB2I8OOCYjdl1mmw2StcM=s0-d-e1-ft#https://drive.google.com/uc?id=1rGo9KInr_ynEjV4iRQU3_Jw0epHIR9pD" alt="" width="211" height="263" class="CToWUd a6T" tabindex="0"><div class="a6S" dir="ltr" style="opacity: 0.01; left: 784.388px; top: 4642.51px;"><div id=":tm" class="T-I J-J5-Ji aQv T-I-ax7 L3 a5q" title="Download" role="button" tabindex="0" aria-label="Download attachment " data-tooltip-class="a1V"><div class="akn"><div class="aSK J-J5-Ji aYr"></div></div></div></div></p>
+        <div dir="ltr" style="opacity:0.01">
+        <div id="m_1296063660149671946:wa" title="Download" role="button" aria-label="Download attachment ">
+        <div>
+        <div>&nbsp;</div>
+        </div>
+        </div>
+        </div>
+        <p>&nbsp;</p>
+        <p style="text-align:center"><strong>Krishan Gopal Yadav</strong></p>
+        <p style="text-align:center">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Project manager&nbsp;</p>
+        <p style="text-align:center">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; (1 year)&nbsp; &nbsp; &nbsp;<strong>&nbsp;&nbsp;</strong></p>
+        </td>
         </tr>
         </tbody>
         </table>
+        <p>&nbsp;</p>
+        <table style="border-collapse:collapse;width:100.298%;height:52.2604px" border="0" cellspacing="0" cellpadding="0">
+        <tbody>
+        <tr style="height:52.2604px">
+        <td style="width:0%;border-top:none;border-right:none;border-left:none;border-bottom:1.5pt solid rgb(250,191,143);padding:0in 5.4pt;height:52.2604px" valign="top" width="1032">
+        <p class="MsoNormal"><strong><span style="font-size:14.0pt;font-family:'Cambria',serif">&nbsp;<em>Employees Engagement : Glimpses of the the events :</em></span></strong><u></u></p>
+        </td>
+        </tr>
+        </tbody>
+        </table>
+        <p class="MsoNormal" style="margin-left:7.1pt;text-align:justify"><span style="font-size:12.0pt;font-family:'Cambria',serif">&nbsp;</span></p>
+        <span><span><img style="display:block;margin-left:auto;margin-right:auto" src="https://ci5.googleusercontent.com/proxy/ARyL8m5EZ3BpUkmOt6vMMYp-x-enM57Qo0ojI_JDi7rcouXkulzWonvzemoTGSebH18qtUVVQU3UqXLdo6HizzYQw2baUq_B8gJf24kxiPZ3RK8=s0-d-e1-ft#https://drive.google.com/uc?id=1zysS9BExBdG8AyRwB0kpcNe7u68nNl3A" alt="" width="593" height="445" class="CToWUd a6T" tabindex="0"><div class="a6S" dir="ltr" style="opacity: 0.01; left: 686.5px; top: 5373.96px;"><div id=":tt" class="T-I J-J5-Ji aQv T-I-ax7 L3 a5q" title="Download" role="button" tabindex="0" aria-label="Download attachment " data-tooltip-class="a1V"><div class="akn"><div class="aSK J-J5-Ji aYr"></div></div></div></div></span></span>
+        <div dir="ltr" style="opacity:0.01">
+        <div id="m_1296063660149671946:wb" title="Download" role="button" aria-label="Download attachment ">
+        <div>
+        <div>&nbsp;</div>
+        </div>
+        </div>
+        </div>
         <p class="MsoNormal" style="margin-left:.25in;text-align:justify">&nbsp;</p>
         <table style="border-collapse:collapse;width:100.298%;height:52.2604px" border="0" cellspacing="0" cellpadding="0">
         <tbody>
         <tr style="height:52.2604px">
         <td style="width:0%;border-top:none;border-right:none;border-left:none;border-bottom:1.5pt solid rgb(250,191,143);padding:0in 5.4pt;height:52.2604px" valign="top" width="1032">
-        <p class="MsoNormal"><strong><span style="font-size:14.0pt;font-family:'Cambria',serif">&nbsp;Employee Spotlight &nbsp;</span></strong><u></u><u></u></p>
+        <p class="MsoNormal"><strong><span style="font-size:14.0pt;font-family:'Cambria',serif">&nbsp;<em>Talent Corner:</em></span></strong><u></u></p>
         </td>
         </tr>
         </tbody>
         </table>
-        <p class="MsoNormal" style="margin-left:7.1pt;text-align:justify"><span style="font-size:12.0pt;font-family:'Cambria',serif">&nbsp;</span><u></u><u></u></p>
-        <p class="MsoNormal" style="margin-left:7.1pt;text-align:justify"><u></u><img style="width:175px;height:267px" src="https://ci5.googleusercontent.com/proxy/9Ub-1YXQt11aEUEbX1zIhfoMEoklTEcaFRc_MvfnLK54Lc8oGzOiXQsv26WjosOG3zDSHmboJpBIaSlM2ks2k30JROmkSc4wPiWuX9pHpr4KQBEjvf_SAq6ZJg7AlKDjcNAFoTYm1ZKq88_ZwOZtYiBLAWW2TQ=s0-d-e1-ft#https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxxH0sMuT0W5VkfPbDIGfGbPj4m9hAQS0fNQ&amp;usqp=CAU" alt="cid:image011.jpg@01D48CBC.0B5EA7C0" width="134" height="205" align="left" hspace="12" class="CToWUd a6T" tabindex="0"><div class="a6S" dir="ltr" style="opacity: 0.01; left: 150.462px; top: 1998.53px;"><div id=":17z" class="T-I J-J5-Ji aQv T-I-ax7 L3 a5q" title="Download" role="button" tabindex="0" aria-label="Download attachment " data-tooltip-class="a1V"><div class="akn"><div class="aSK J-J5-Ji aYr"></div></div></div></div></p>
+        <p class="MsoNormal" style="margin-left:7.1pt"><span style="font-size:12.0pt;font-family:'Cambria',serif">&nbsp;<img style="display:block;margin-left:auto;margin-right:auto" src="https://ci3.googleusercontent.com/proxy/5IJsqoiNwMQSTq4xRssy9WHUvVOEakFxkiUDfhBG5AJr6dH29L0hzXwArviedJ9eBFd0v1B55A65vsN8AZWLzqsLsaQYaNKflmmp9hwcm0N96Dc=s0-d-e1-ft#https://drive.google.com/uc?id=16M9bYUvS1iMv_jOi_ZcEEjWqT7-__wBO" alt="" width="752" height="972" class="CToWUd a6T" tabindex="0"><div class="a6S" dir="ltr" style="opacity: 0.01; left: 770.725px; top: 6453.81px;"><div id=":tj" class="T-I J-J5-Ji aQv T-I-ax7 L3 a5q" role="button" tabindex="0" aria-label="Download attachment " data-tooltip-class="a1V" data-tooltip="Download"><div class="akn"><div class="aSK J-J5-Ji aYr"></div></div></div></div></span></p>
         <div dir="ltr" style="opacity:0.01">
-        <div id="m_3386916906058136907:16r" title="Download" role="button" aria-label="Download attachment ">
+        <div id="m_1296063660149671946:wc" title="Download" role="button" aria-label="Download attachment ">
         <div>
         <div>&nbsp;</div>
         </div>
         </div>
         </div>
-        <u></u><span style="font-size:12.0pt;font-family:'Cambria',serif">I have been associated with Infogain for more than a year and a half now and my exponential learning curves remains as strong as it was on day one. Having been new to project management, I had the opportunity to learn the tricks of the trades from very experienced people which has helped me in shaping myself as a true professional. In my short stint, I have worked closely with multiple clients and stakeholders which has&nbsp; &nbsp;provided me with cross-functional experience and helped me in enhancing my management skills.</span><u></u><u></u>
+        <u></u><u></u>
         <p>&nbsp;</p>
-        <p class="MsoNormal" style="text-align:justify;line-height:13.5pt"><strong><span style="font-size:12.0pt;font-family:'Cambria',serif">What motivates you</span></strong><span style="font-size:12.0pt;font-family:'Cambria',serif"> &nbsp;- I would say “FEAR”.&nbsp; Fear can be a source of energy and motivation if you can learn how to turn it into something positive. The fear of failure, the fear of missing an opportunity. Every time I overcome fear, I am stronger and for me embracing fear is embracing growth.</span><u></u><u></u></p>
-        <p class="MsoNormal" style="text-align:justify;line-height:13.5pt"><strong><span style="font-size:12.0pt;font-family:'Cambria',serif">&nbsp;</span></strong><u></u><u></u></p>
-        <p class="MsoNormal" style="text-align:justify;line-height:13.5pt"><strong><span style="font-size:12.0pt;font-family:'Cambria',serif">What do you like best in Infogain &nbsp;- </span></strong><span style="font-size:12.0pt;font-family:'Cambria',serif">the kind of work I do, “freedom” takes on a very specific meaning and this is what I like most about Infogain. The freedom of allowing employees and giving them the autonomy to take charge and work in the direction which best suits your productivity.&nbsp; It is the freedom to make my decisions which makes me feel more responsible and empowered.<span style="background:white"> </span></span><u></u><u></u></p>
-        <p class="MsoNormal" style="text-align:justify;line-height:13.5pt"><strong><span style="font-size:12.0pt;font-family:'Cambria',serif">&nbsp;</span></strong><u></u><u></u></p>
-        <p class="MsoNormal" style="text-align:justify;line-height:13.5pt"><strong><span style="font-size:12.0pt;font-family:'Cambria',serif">Tell us about your role model and why do you look up to that person - &nbsp;</span></strong><span style="font-size:12.0pt;font-family:'Cambria',serif">I have been a great admirer of sports and sportspersons throughout my life and I look up to Rafael Nadal as my role model. His Intensity and passion in what he does and never say die attitude is something I admire. I wish I can imbibe his humility and tenacity in my life as well.</span><u></u><u></u></p>
-        <p class="MsoNormal" style="text-align:justify;line-height:13.5pt"><span style="font-size:12.0pt;font-family:'Cambria',serif">&nbsp;</span><u></u><u></u></p>
-        <p class="MsoNormal" style="text-align:justify;line-height:13.5pt"><strong><span style="font-size:12.0pt;font-family:'Cambria',serif">Your idea about effective leadership - </span></strong><span style="font-size:12.0pt;font-family:'Cambria',serif">For me effective leadership is all about a keen sense of justice. Without a sense of fairness and justice towards you peers, you juniors and seniors, no leader can command and retain the respect of his followers.</span><u></u><u></u></p>
-        <p class="MsoNormal" style="text-align:justify;line-height:13.5pt"><span style="font-size:12.0pt;font-family:'Cambria',serif">&nbsp;</span><u></u><u></u></p>
-        <p class="MsoNormal" style="text-align:justify;line-height:13.5pt"><strong><span style="font-size:12.0pt;font-family:'Cambria',serif">What are you passionate about - </span></strong><span style="font-size:12.0pt;font-family:'Cambria',serif">I am inquisitive in nature and always passionate about learning new things,&nbsp; not just in my workplace but beyond that as well. I keep budging my seniors at Infogain about how they are solving their day to day issues at work. The important thing is not to stop questioning. It ignites discovery.</span><u></u><u></u></p>
-        <p class="MsoNormal" style="text-align:justify;line-height:13.5pt"><span style="font-size:12.0pt;font-family:'Cambria',serif">&nbsp;</span><u></u><u></u></p>
-        <p class="MsoNormal" style="text-align:justify;line-height:13.5pt"><strong><span style="font-size:12.0pt;font-family:'Cambria',serif">A memorable moment at Infogain - </span></strong><span style="font-size:12.0pt;font-family:'Cambria',serif">I would say it was my first day at workplace. I joined&nbsp;Infogain fresh out of my MBA and though I had a good number of work experience earlier,&nbsp; the fact that there had been a gap of 2 years since I last worked, was always in the back of my mind. It felt as if I was a fresher all over again. I was nervous to start off with my new role but once I sat in the cubicle with my laptop and a cup of coffee I knew I always belonged here. </span><u></u><u></u></p>
-        <p class="MsoNormal" style="text-align:justify;line-height:13.5pt"><span style="font-size:12.0pt;font-family:'Cambria',serif">&nbsp;</span><u></u><u></u></p>
-        <p class="MsoNormal" style="text-align:justify;line-height:13.5pt"><strong><span style="font-size:12.0pt;font-family:'Cambria',serif">What is that none of the people in Infogain know about you - </span></strong><span style="font-size:12.0pt;font-family:'Cambria',serif">That I have a case study published in Cranfield University, UK&nbsp; in 2016 on Delhi’s dismal state of pollution and odd-even formula to curb it. </span><u></u><u></u></p>
-        <p class="MsoNormal" style="text-align:justify;line-height:13.5pt"><span style="font-size:12.0pt;font-family:'Cambria',serif">&nbsp;</span><u></u><u></u></p>
-        <p class="MsoNormal" style="text-align:justify;line-height:13.5pt"><strong><span style="font-size:12.0pt;font-family:'Cambria',serif">Your Vision for Infogain - </span></strong><span style="font-size:12.0pt;font-family:'Cambria',serif">The science of today is the&nbsp;technology&nbsp;of tomorrow. We should keep working with newer technology. By leveraging new technology, especially when coming to it ahead of the curve makes it’s highly likely that Infogain will see beneficial results.</span><u></u><u></u></p>
-        <p class="MsoNormal" style="text-align:justify;line-height:13.5pt"><span style="font-size:12.0pt;font-family:'Cambria',serif">&nbsp;</span><u></u><u></u></p>
-        <p class="MsoNormal" style="text-align:justify;line-height:13.5pt"><strong><span style="font-size:12.0pt;font-family:'Cambria',serif">If you could change one thing about yourself, what would it be - </span></strong><span style="font-size:12.0pt;font-family:'Cambria',serif">Procrastination – I am actively working towards my habits to overcome it.</span><u></u><u></u></p>
-        <p class="MsoNormal" style="text-align:justify;line-height:13.5pt"><span style="font-size:12.0pt;font-family:'Cambria',serif">&nbsp;</span><u></u><u></u></p>
-        <p class="MsoNormal" style="text-align:justify;line-height:13.5pt"><strong><span style="font-size:12.0pt;font-family:'Cambria',serif">Your favourite quote/ Motto of life - </span></strong><span style="font-size:12.0pt;font-family:'Cambria',serif">“It is not the strongest of the species that survives, nor the most intelligent that survives. It is the one that is the most adaptable to change” - Charles Darwin </span><u></u><u></u></p>
+        <p class="MsoNormal" style="text-align:justify;line-height:13.5pt">&nbsp;</p>
         <p class="MsoNormal" style="margin-left:7.1pt;text-align:justify"><strong><span style="font-size:14.0pt;font-family:'Cambria',serif;color:#284775">&nbsp;</span></strong><u></u><u></u></p>
-        <table style="border-collapse:collapse" border="0" cellspacing="0" cellpadding="0">
-        <tbody>
-        <tr>
-        <td style="width:774.3pt;border:none;border-bottom:solid #fabf8f 1.5pt;padding:0in 5.4pt 0in 5.4pt" valign="top" width="1032">
-        <p class="MsoNormal"><strong><span style="font-size:14.0pt;font-family:'Cambria',serif">Employee Testimonials </span></strong><u></u><u></u></p>
         </td>
         </tr>
         </tbody>
         </table>
-        <p style="text-align:justify"><strong><span style="font-family:'Cambria',serif">Dubai All Hands Meet – organized on Aug 2018 – &nbsp;</span></strong><span style="font-family:'Cambria',serif;color:black">Mr. Sunil Bhatia and Mr. Eddie Chandhok spoke about Infogain's plan and target&nbsp;for FY2019, updated the Team behind the rational for new tag line "Engineering Business Outcomes", briefed the Team on Infogain's 4 core values, trends/technologies for future. Motivated the Team to cross-train themselves and adoption&nbsp;on modern age technologies, steps which Infogain has taken to cross-train the resources including conducting regular training etc.&nbsp; Mr. Manoj Mittal has updated the Team with his growth&nbsp;plans for region and congratulated the Team for all good work which is done in past. He also requested the Team for continuous support and more&nbsp;collaboration/focus to grow the region and assured his support and commitment towards Team.&nbsp; Executive Team also answered the various questions asked by Team during the event, followed by drinks and dinner.</span><u></u><u></u></p>
-        <p><strong><span style="font-size:14.0pt;font-family:'Cambria',serif;color:black">Glimpses of the event </span></strong><u></u><u></u></p>
-        <p style="text-align:center" align="center"><span style="font-size:14.0pt;font-family:'Cambria',serif;color:black"><img id="m_3386916906058136907m_-7380952542283019030m_5706355720619803718m_-4411664370936940559Picture_x0020_123" style="width:535px;height:266px" src="https://ci4.googleusercontent.com/proxy/OWgjjP4ukh9YqYwY-IxW25koF87rCNVrVxxkHVpJhsM4FLtOOxD8lwG4SpHEwoYfe5hceAKGZ4mOE_27weWIDIGuZBJt3-LwwdiEnmlUEbky-jIm9bwOgk5yDjtlDAkOYfLqNG4GvC5Z53OcvrKEvqQ1IWVl7A=s0-d-e1-ft#https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdQohkboiDON5ARsxSV_EuA_Eqe-VPF2g8gg&amp;usqp=CAU" alt="cid:image012.png@01D48CBC.0B5EA7C0" width="714" height="394" class="CToWUd a6T" tabindex="0"><div class="a6S" dir="ltr" style="opacity: 0.01; left: 773.425px; top: 2984.77px;"><div id=":180" class="T-I J-J5-Ji aQv T-I-ax7 L3 a5q" role="button" tabindex="0" aria-label="Download attachment " data-tooltip-class="a1V" data-tooltip="Download"><div class="akn"><div class="aSK J-J5-Ji aYr"></div></div></div></div></span></p>
-        <div dir="ltr" style="opacity:0.01">
-        <div id="m_3386916906058136907:16s" role="button" aria-label="Download attachment ">
-        <div>
-        <div>&nbsp;</div>
-        </div>
-        </div>
-        </div>
-        <u></u><u></u>
-        <p>&nbsp;</p>
-        <table style="border-collapse:collapse" border="0" cellspacing="0" cellpadding="0">
-        <tbody>
-        <tr>
-        <td style="width:754.4pt;border:none;border-bottom:solid #fabf8f 1.5pt;padding:0in 5.4pt 0in 5.4pt" valign="top" width="1006">
-        <p class="MsoNormal"><strong><span style="font-size:14.0pt;font-family:'Cambria',serif">Employee Testimonials </span></strong><u></u><u></u></p>
-        </td>
-        </tr>
-        </tbody>
-        </table>
-        <p class="MsoNormal" style="text-align:justify"><span style="font-size:14.0pt;font-family:'Cambria',serif"><br></span><u></u><img style="width:127px;height:172px" src="https://ci4.googleusercontent.com/proxy/-L_lNri466tfkoaQK0VjhEb688xCtvSGJoSMzkW-ApBHFhdcBCDNRPn5j3WNA0iaaDiTh1gwyg5SOODgDe2rCVwzX_q-CjI=s0-d-e1-ft#https://templateella.herokuapp.com/1652004825984.png" alt="cid:image014.jpg@01D48CBC.0B5EA7C0" width="99" height="132" align="left" hspace="12" class="CToWUd" jslog="138226; u014N:xr6bB; 53:W2ZhbHNlXQ.."><u></u><span style="font-size:12.0pt;font-family:'Cambria',serif">I have been working in NTUC-MMS for 4-5 months and even in such a small duration of time, I got the exposure and opportunities to learn new technologies and enhance my skill set. The clients appreciate our hard work. The managers and team members are very helpful and cooperative. It's a wonderful experience altogether and I really feel very proud to be a part of NTUC.<br><strong>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Kaushal</strong></span><strong><span style="font-size:12.0pt;font-family:'Cambria',serif"> - Software Engineer - Team – Kloudrac</span></strong><u></u></p>
-        <p class="MsoNormal" style="text-align:justify;line-height:13.5pt"><span style="font-size:12.0pt;font-family:'Cambria',serif">&nbsp;</span><u></u><u></u></p>
-        <p class="MsoNormal" style="text-align:justify;line-height:13.5pt"><span style="font-size:12.0pt;font-family:'Cambria',serif">&nbsp;</span><u></u><u></u></p>
-        <p class="MsoNormal" style="text-align:justify;line-height:13.5pt">&nbsp;</p>
-        <p class="MsoNormal" style="text-align:justify;line-height:13.5pt">&nbsp;</p>
-        <p class="MsoNormal" style="text-align:justify;line-height:13.5pt"><u></u><img style="width:174px;height:174px" src="https://ci3.googleusercontent.com/proxy/DrH41kFro2dxiae2yktUdMw1uQlT9SCYQVzCoHx7x84-JcpQfAxbdRYDJ9Yr_K2e-QJSiY9ytB5AUJtixm_y_QLip4l2-S0KlE63veiTSQBYx_JjZNsVxgGw0ado30I=s0-d-e1-ft#https://pbs.twimg.com/profile_images/864282616597405701/M-FEJMZ0_400x400.jpg" alt="cid:image017.png@01D48CBC.0B5EA7C0" width="100" height="126" align="left" hspace="12" class="CToWUd a6T" tabindex="0"><div class="a6S" dir="ltr" style="opacity: 0.01; left: 291px; top: 3448.32px;"><div id=":181" class="T-I J-J5-Ji aQv T-I-ax7 L3 a5q" title="Download" role="button" tabindex="0" aria-label="Download attachment " data-tooltip-class="a1V"><div class="akn"><div class="aSK J-J5-Ji aYr"></div></div></div></div></p>
-        <div dir="ltr" style="opacity:0.01">
-        <div id="m_3386916906058136907:16t" title="Download" role="button" aria-label="Download attachment ">
-        <div>
-        <div>&nbsp;</div>
-        </div>
-        </div>
-        </div>
-        <u></u>
-        <p>&nbsp;</p>
-        <p class="MsoNormal" style="text-align:justify;line-height:13.5pt">&nbsp;</p>
-        <p class="MsoNormal" style="text-align:justify;line-height:13.5pt"><span style="font-size:12.0pt;font-family:'Cambria',serif">NTUC gives opportunity to work on cutting edge technologies which backed me up to experiment more. I am delighted to get exciting opportunities to work on trending technologies such as big data, AWS and analytics. Our leadership, best team and suave client together renders a great environment to work and excel in overall demeanour.&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</span><u></u></p>
-        <p class="MsoNormal" style="text-align:justify;line-height:13.5pt"><u></u><u></u><strong><span style="font-size:12.0pt;font-family:'Cambria',serif">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Sundar Pichai - CEO - Google&nbsp;</span></strong><u></u></p>
-        <p class="MsoNormal" style="text-align:justify;line-height:13.5pt"><span style="font-size:12.0pt;font-family:'Cambria',serif">&nbsp;</span><u></u><u></u></p>
-        <p class="MsoNormal" style="text-align:justify;line-height:13.5pt"><span style="font-size:12.0pt;font-family:'Cambria',serif">&nbsp;</span><u></u><u></u></p>
-        <p class="MsoNormal" style="text-align:justify;line-height:13.5pt">&nbsp;</p>
-        <p class="MsoNormal" style="text-align:justify;line-height:13.5pt"><u></u><img style="width:200px;height:200px" src="https://ci6.googleusercontent.com/proxy/a_O7Zb9goV8sEtPcWouk1UtECGCXvqyNq7eqkqZVJHSrDDgNMIRGl7tCXodqedEUL0GInrlSH7yE1DeMb_JQ_1GH2cIZgkQ=s0-d-e1-ft#https://templateella.herokuapp.com/1652004806415.png" alt="cid:image019.png@01D48CBC.0B5EA7C0" width="104" height="140" align="left" hspace="12" class="CToWUd" jslog="138226; u014N:xr6bB; 53:W2ZhbHNlXQ.."><u></u><span style="font-size:12.0pt;font-family:'Cambria',serif"><br></span></p>
-        <p class="MsoNormal" style="text-align:justify;line-height:13.5pt">&nbsp;</p>
-        <p class="MsoNormal" style="text-align:justify;line-height:13.5pt"><span style="font-size:12.0pt;font-family:'Cambria',serif">It's been a pleasure working with NTUC and the opportunity we get to work on Singapore’s one of the largest enterprise application. Also, we get the exposure of working on state of the art technologies in a challenging yet rewarding environment which helped our team in their professional growth. Moreover, we appreciate the positive lift we get from NTUC client visits which boasts the team morale&nbsp;</span><u></u></p>
-        <p class="MsoNormal" style="text-align:justify;line-height:13.5pt"><u></u><u></u><strong><span style="font-size:12.0pt;font-family:'Cambria',serif">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;-Satya Nadella - CEO - Microsoft&nbsp;</span></strong><u></u></p>
-        <p class="MsoNormal" style="text-align:justify;line-height:13.5pt"><span style="font-size:12.0pt;font-family:'Cambria',serif"><br>&nbsp;</span><u></u><u></u></p>
-        <p class="MsoNormal" style="text-align:justify;line-height:13.5pt">&nbsp;</p>
-        <table style="border-collapse:collapse;width:100.298%;height:52.2604px" border="0" cellspacing="0" cellpadding="0">
-        <tbody>
-        <tr style="height:52.2604px">
-        <td style="width:0%;border-top:none;border-right:none;border-left:none;border-bottom:1.5pt solid rgb(250,191,143);padding:0in 5.4pt;height:52.2604px" valign="top" width="1006">
-        <p class="MsoNormal"><strong><span style="font-size:14.0pt;font-family:'Cambria',serif">Let’s Applaud &nbsp;</span></strong><u></u><u></u></p>
-        </td>
-        </tr>
-        </tbody>
-        </table>
-        <p class="MsoNormal" style="margin-left:7.1pt;text-align:center" align="center"><span style="font-size:14.0pt;font-family:'Cambria',serif">&nbsp;</span><u></u><u></u></p>
-        <p class="MsoNormal" style="margin-left:.5in"><u></u><span style="font-family:Wingdings">Ø<span style="font:7.0pt 'Times New Roman'">&nbsp; </span></span><u></u><strong><span style="font-size:12.0pt;font-family:'Cambria',serif">Team – Kloudrac received appreciation from client and some monthly awards were given to fellow Infogainers. <br>Details below: </span></strong><u></u><u></u></p>
-        <p class="MsoNormal" style="margin-left:7.1pt;text-align:center" align="center"><span style="font-size:14.0pt;font-family:'Cambria',serif"><img id="m_3386916906058136907m_-7380952542283019030m_5706355720619803718m_-4411664370936940559Picture_x0020_124" style="width:9.6875in;height:3.8958in" alt="cid:image024.png@01D48CBC.0B5EA7C0" width="930" height="374"></span><u></u><u></u></p>
-        <p class="MsoNormal" style="margin-left:.5in"><u></u><span style="font-family:Wingdings">Ø<span style="font:7.0pt 'Times New Roman'">&nbsp; </span></span><u></u><strong><span style="font-size:12.0pt;font-family:'Cambria',serif">Team kloudrac received client appreciation. Below are some testimonials: </span></strong><u></u><u></u></p>
-        <p class="MsoNormal"><span style="font-size:14.0pt;font-family:'Cambria',serif">&nbsp;</span><u></u><u></u></p>
-        <p class="MsoNormal" style="margin-left:.25in;text-align:justify"><span lang="EN-SG" style="font-size:12.0pt;font-family:'Cambria',serif;color:black"><br></span><u></u><img style="width:150px;height:150px" src="https://ci3.googleusercontent.com/proxy/3uq-SfaeWtyl8QGqxm6nnSRM8Q84659goryqa2Wr9Qnb5j5wun4wpXnr-WOiVxIB5NbtuFUpKtidrtJqcYHHiYOcpeC2szb9TVdX_aHftYmWUHxyfk2hjsPG36ykK5uGaXLY0ydbT4ll0B2QXjTxktGO-7QewiuI5h4l2yH_G2yMESSWBAcFN_fPT-lUDTV9TzNIVlWsEyQWFcqN_9lOJj6qH7neBaM7XMSLJ300EAooRvUADRDiyGX0Xg=s0-d-e1-ft#https://cdn.vox-cdn.com/thumbor/qVjMPtyFVT5Dtwl_jSOCj4Y33TM=/1400x1400/filters:format(jpeg)/cdn.vox-cdn.com/uploads/chorus_asset/file/15980837/elon_musk_tesla_3036.jpg" alt="cid:image028.png@01D48CBC.0B5EA7C0" width="210" height="56" align="left" hspace="12" class="CToWUd a6T" tabindex="0"><div class="a6S" dir="ltr" style="opacity: 0.01; left: 140px; top: 4067.53px;"><div id=":182" class="T-I J-J5-Ji aQv T-I-ax7 L3 a5q" title="Download" role="button" tabindex="0" aria-label="Download attachment " data-tooltip-class="a1V"><div class="akn"><div class="aSK J-J5-Ji aYr"></div></div></div></div></p>
-        <div dir="ltr" style="opacity:0.01">
-        <div id="m_3386916906058136907:16u" title="Download" role="button" aria-label="Download attachment ">
-        <div>
-        <div>&nbsp;</div>
-        </div>
-        </div>
-        </div>
-        <u></u>
-        <p>&nbsp;</p>
-        <p class="MsoNormal" style="margin-left:.25in;text-align:justify"><span lang="EN-SG" style="font-size:12.0pt;font-family:'Cambria',serif;color:black">A great document on the progress of the product and features. Link team, do read this and see what the product is up to. Provide <span style="font-size:8pt">input</span> and see how products are evolving. Other products are coming similarly.&nbsp; Special thanks to the India team. </span></p>
-        <p class="MsoNormal" style="margin-left:.25in;text-align:justify"><strong><em><span lang="EN-SG" style="font-size:12.0pt;font-family:'Cambria',serif;color:#2e74b5">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; -Elon Musk</span></em></strong><strong><span lang="EN-SG" style="font-size:12.0pt;font-family:'Cambria',serif">- CEO,Space X 1<sup>st</sup> April<sup>&nbsp; &nbsp;</sup> 2022</span></strong><u></u></p>
-        <p class="MsoNormal" style="margin-left:.25in;text-align:justify">&nbsp;</p>
-        <p class="MsoNormal" style="margin-left:.25in;text-align:justify">&nbsp;</p>
-        <p class="MsoNormal" style="margin-left:.25in;text-align:justify">&nbsp;</p>
-        <p class="MsoNormal" style="margin-left:.25in;text-align:justify"><strong><span lang="EN-SG" style="font-size:12.0pt;font-family:'Cambria',serif"><span lang="EN-SG" style="font-size:12.0pt;font-family:'Cambria',serif;color:black"><br></span><u></u><img style="width:135px;height:169px" src="https://ci3.googleusercontent.com/proxy/a-eW9k-92qGvNGOVYYkhkwIRMiQ6HTmb_gAsYT7J0-36cAdwwnFJ2HXkQlMn24DskK9aKaMWuulkcDpZvoci45cOXIZtLK4=s0-d-e1-ft#https://templateella.herokuapp.com/1652004825982.png" alt="cid:image028.png@01D48CBC.0B5EA7C0" width="210" height="56" align="left" hspace="12" class="CToWUd" jslog="138226; u014N:xr6bB; 53:W2ZhbHNlXQ.."><u></u></span></strong></p>
-        <p class="MsoNormal" style="margin-left:.25in;text-align:justify">&nbsp;</p>
-        <p class="MsoNormal" style="margin-left:.25in;text-align:justify"><strong><span lang="EN-SG" style="font-size:12.0pt;font-family:'Cambria',serif"><span style="color:rgb(0,0,0);font-size:10pt;font-family:verdana,geneva,sans-serif"><span lang="EN-SG">A great document on the progress of the product and features. Link team, do read this and see what</span><span lang="EN-SG"> the </span><span lang="EN-SG">product is up to. Provide input and see how products are evolving. Other products are coming similarly.&nbsp; Special thanks to the India team. </span></span></span></strong></p>
-        <p class="MsoNormal" style="margin-left:.25in;text-align:justify"><strong><span lang="EN-SG" style="font-size:12.0pt;font-family:'Cambria',serif"><span style="color:rgb(0,0,0);font-size:10pt;font-family:verdana,geneva,sans-serif"><span lang="EN-SG">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;-<em><span lang="EN-SG" style="font-size:12.0pt;font-family:'Cambria',serif;color:#2e74b5">&nbsp; Jeff Bezos</span></em><span lang="EN-SG" style="font-size:12.0pt;font-family:'Cambria',serif">- CEO,Space X 1<sup>st</sup> April<sup>&nbsp; &nbsp;</sup> 2022</span></span></span></span></strong></p>
-        <p class="MsoNormal" style="margin-left:.25in;text-align:justify">&nbsp;</p>
-        <p class="MsoNormal" style="margin-left:.25in;text-align:justify">&nbsp;</p>
-        <p class="MsoNormal" style="margin-left:.25in;text-align:justify"><strong><span lang="EN-SG" style="font-size:12.0pt;font-family:'Cambria',serif"><span lang="EN-SG" style="font-size:12.0pt;font-family:'Cambria',serif;color:black">&nbsp;<br></span><u></u><img style="width:147px;height:147px" src="https://ci3.googleusercontent.com/proxy/Th7M9eGhz93LcI-iTD4CdiqR9tmgxZ2acBsVqWhrS-P_baouuTkWvQMa0AUWeADYnrWdbNaWMtltsnzr2C4GsJAd3FUjq_Nq955XabnB4V51iQu2sycnZpxQgyFPMM_RobDEI89J3TAfaIvV7LMUBIOIS9F4Cg=s0-d-e1-ft#https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrvI0XKZfrGBkxR3zOx-hMoNEAgCnnOKBhrA&amp;usqp=CAU" alt="cid:image028.png@01D48CBC.0B5EA7C0" width="210" height="56" align="left" hspace="12" class="CToWUd"><u></u></span></strong></p>
-        <p class="MsoNormal" style="margin-left:.25in;text-align:justify"><strong><span lang="EN-SG" style="font-size:12.0pt;font-family:'Cambria',serif"><em><span lang="EN-SG" style="font-size:12.0pt;font-family:'Cambria',serif;color:black">A great document on the progress of the product and features. Link team, do read this and see what the product is up to. Provide input and see how products are evolving. Other products are coming similarly.&nbsp; Special thanks to the India team. </span></em></span></strong></p>
-        <p class="MsoNormal" style="margin-left:.25in;text-align:justify"><strong><span lang="EN-SG" style="font-size:12.0pt;font-family:'Cambria',serif"><em><span lang="EN-SG" style="font-size:12.0pt;font-family:'Cambria',serif;color:#2e74b5">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;-Mark Zuckerberg</span>&nbsp;- CEO, NTUC Link 1<sup>st</sup> Sep 2018</em></span></strong></p>
-        <p class="MsoNormal" style="margin-left:.25in;text-align:justify">&nbsp;</p>
-        <p class="MsoNormal" style="margin-left:.25in;text-align:justify">&nbsp;</p>
-        <p class="MsoNormal" style="margin-left:.25in;text-align:justify">&nbsp;</p>
-        <p class="MsoNormal" style="margin-left:.25in;text-align:justify"><strong><span lang="EN-SG" style="font-size:12.0pt;font-family:'Cambria',serif"><span lang="EN-SG" style="font-size:12.0pt;font-family:'Cambria',serif;color:black"><br></span><u></u><img style="width:129px;height:185px" src="https://ci6.googleusercontent.com/proxy/gOB0kOmJKX3X0LyfLA6bqXk_p6UkABSIVRm5_oU-VypaodaHyUDVs-7S8xqHABohhNWs4KjodILSL9vqriUr6U28bFlcw48=s0-d-e1-ft#https://templateella.herokuapp.com/1652004825987.png" alt="cid:image028.png@01D48CBC.0B5EA7C0" width="210" height="56" align="left" hspace="12" class="CToWUd" jslog="138226; u014N:xr6bB; 53:W2ZhbHNlXQ.."><u></u><em><span lang="EN-SG" style="font-size:12.0pt;font-family:'Cambria',serif;color:black">A great document on the progress of the product and features. Link team, do read this and see what the product is up to. Provide input and see how products are evolving. Other products are coming similarly.&nbsp; Special thanks to the India team. </span><span lang="EN-SG" style="font-size:12.0pt;font-family:'Cambria',serif;color:#2e74b5">-</span>Sandeep Bhalla&nbsp;</em></span></strong></p>
-        <p class="MsoNormal" style="margin-left:.25in;text-align:justify"><strong><span lang="EN-SG" style="font-size:12.0pt;font-family:'Cambria',serif"><em>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; - <span style="color:rgb(185,106,217)">Steve Jobs</span>,ex CEO, Apple&nbsp;</em></span></strong></p>
-        <p class="MsoNormal" style="margin-left:.25in;text-align:justify"><span style="font-size:12.0pt;font-family:'Cambria',serif">&nbsp;</span><u></u><u></u></p>
-        <p class="MsoNormal" style="margin-left:.25in">&nbsp;</p>
-        <p class="MsoNormal" style="margin-left:.25in">&nbsp;</p>
-        <table style="border-collapse:collapse" border="0" cellspacing="0" cellpadding="0">
-        <tbody>
-        <tr>
-        <td style="width:754.4pt;border:none;border-bottom:solid #fabf8f 1.5pt;padding:0in 5.4pt 0in 5.4pt" valign="top" width="1006">
-        <p class="MsoNormal"><strong><span style="font-size:14.0pt;font-family:'Cambria',serif">Event Glimpses &nbsp;</span></strong><u></u><u></u></p>
-        </td>
-        </tr>
-        </tbody>
-        </table>
-        <p class="MsoNormal"><span style="font-size:14.0pt;font-family:'Cambria',serif">&nbsp;</span><u></u><u></u></p>
-        <p class="MsoNormal" style="margin-right:0in;margin-bottom:14.0pt;margin-left:.5in;text-align:center" align="center"><u></u><span style="font-family:Wingdings">Ø<span style="font:7.0pt 'Times New Roman'">&nbsp; </span></span><u></u><strong><span style="font-size:12.0pt;font-family:'Cambria',serif">Client Visit &nbsp;- Natalya Kosenko – Product manager &nbsp;visited Infogain Noida office in the month of Aug’18 and spent time with the NTUC team.</span></strong><span style="font-size:12.0pt;font-family:'Cambria',serif"> </span><u></u><u></u></p>
-        <p class="MsoNormal" style="margin-left:.25in;text-align:center" align="center"><span style="font-size:14.0pt;font-family:'Cambria',serif"><img id="m_3386916906058136907m_-7380952542283019030m_5706355720619803718m_-4411664370936940559Picture_x0020_125" style="width:458px;height:257px" src="https://ci4.googleusercontent.com/proxy/ccZKQKHZVdkyFAv2NiMcKmJezOUn3YsiQnfv26Cx0auUBrThn_QQNRp-7Dv6u8UbmWjBprHRavw_yIJU9qCzNVw5Yuz4PbOUc7ZocyOUKQTwyp1K51MGw0MdFPH6-nXkVVnjWF7OdWRUMpVIhj4G-ipUCIaU6w=s0-d-e1-ft#https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScNvtbb_Fs7211u9I35Z8nB-5XEfrHFl2S3w&amp;usqp=CAU" alt="cid:image030.png@01D48CBC.0B5EA7C0" width="910" height="163" class="CToWUd a6T" tabindex="0"><div class="a6S" dir="ltr" style="opacity: 0.01; left: 746.925px; top: 4891.36px;"><div id=":183" class="T-I J-J5-Ji aQv T-I-ax7 L3 a5q" title="Download" role="button" tabindex="0" aria-label="Download attachment " data-tooltip-class="a1V"><div class="akn"><div class="aSK J-J5-Ji aYr"></div></div></div></div></span></p>
-        <div dir="ltr" style="opacity:0.01">
-        <div id="m_3386916906058136907:16v" title="Download" role="button" aria-label="Download attachment ">
-        <div>
-        <div>&nbsp;</div>
-        </div>
-        </div>
-        </div>
-        <u></u><u></u>
-        <p>&nbsp;</p>
-        <p class="MsoNormal"><span style="font-size:14.0pt;font-family:'Cambria',serif">&nbsp;</span><u></u><u></u></p>
-        <p class="MsoNormal"><span style="font-size:14.0pt;font-family:'Cambria',serif">&nbsp;</span><u></u><u></u></p>
-        <p class="MsoNormal" style="margin-left:.5in"><u></u><span style="font-family:Wingdings">Ø<span style="font:7.0pt 'Times New Roman'">&nbsp; </span></span><u></u><strong><span style="font-size:12.0pt;font-family:'Cambria',serif">Times International Team Get – Together </span></strong><u></u><u></u></p>
-        <p class="MsoNormal"><span style="font-size:12.0pt;font-family:'Cambria',serif">&nbsp;</span><u></u><u></u></p>
-        <p class="MsoNormal" style="text-align:center" align="center"><span style="font-size:14.0pt;font-family:'Cambria',serif"><img id="m_3386916906058136907m_-7380952542283019030m_5706355720619803718m_-4411664370936940559Picture_x0020_126" style="width:747px;height:186px" src="https://ci5.googleusercontent.com/proxy/kafk9zYAg5h17zu5HIp6zwvCn4GDiyfEizY-0Q8VJKx00SCsYfAYjSIqCbK4Jje2kNlLEqQ4JyK620o-rhZMCprSz7Rjw_36XBCWgAgEnTvTZC2XvJFd08JtRwnKSNqar-9cqxgYYkVETRUAr2Dnr0Uq1kLgbA=s0-d-e1-ft#https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWE855XFB6nFwwbPzXuKszY27ApvTc-ttjuQ&amp;usqp=CAU" alt="9c7f04a6-0fc3-4a47-b974-420835cef3dd@INDPRD01" width="526" height="395" class="CToWUd a6T" tabindex="0"><div class="a6S" dir="ltr" style="opacity: 0.01; left: 879.425px; top: 5233.11px;"><div id=":184" class="T-I J-J5-Ji aQv T-I-ax7 L3 a5q" role="button" tabindex="0" aria-label="Download attachment " data-tooltip-class="a1V" data-tooltip="Download"><div class="akn"><div class="aSK J-J5-Ji aYr"></div></div></div></div></span></p>
-        <div dir="ltr" style="opacity:0.01">
-        <div id="m_3386916906058136907:16w" role="button" aria-label="Download attachment ">
-        <div>
-        <div>&nbsp;</div>
-        </div>
-        </div>
-        </div>
-        <u></u><u></u>
-        <p>&nbsp;</p>
-        <p class="MsoNormal"><span style="font-size:14.0pt;font-family:'Cambria',serif">&nbsp;</span><u></u><u></u></p>
-        <table style="border-collapse:collapse" border="0" cellspacing="0" cellpadding="0">
-        <tbody>
-        <tr>
-        <td style="width:754.4pt;border:none;border-bottom:solid #fabf8f 1.5pt;padding:0in 5.4pt 0in 5.4pt" valign="top" width="1006">
-        <p class="MsoNormal"><strong><span style="font-size:14.0pt;font-family:'Cambria',serif">Let’s Congratulate!! &nbsp;&nbsp;</span></strong><u></u><u></u></p>
-        </td>
-        </tr>
-        </tbody>
-        </table>
-        <p class="MsoNormal"><span style="font-size:14.0pt;font-family:'Cambria',serif">&nbsp;</span><u></u><u></u></p>
-        <p class="MsoNormal">&nbsp;<u></u><img style="width:183px;height:236px" src="https://ci5.googleusercontent.com/proxy/mI04zmZmy79BOsX2hiS-ldKYTSyTx5scdf-1cBRuCB0nf-4VvbRJaDkTfzbnlTXgyYD6C1wG-3Qz5knXxUL9GxDGJHLsY2g=s0-d-e1-ft#https://templateella.herokuapp.com/1652004825994.png" alt="cid:image034.png@01D48CBC.0B5EA7C0" width="105" height="154" align="left" hspace="12" class="CToWUd" jslog="138226; u014N:xr6bB; 53:W2ZhbHNlXQ.."><u></u><span style="font-size:14.0pt;font-family:'Cambria',serif"> </span><u></u><u></u><span style="font-size:14.0pt;font-family:'Cambria',serif">Satyaveer Singh part of Dubai Customs team has been blessed with a baby girl on 14th Sept 2018.</span><u></u><u></u></p>
-        <p class="MsoNormal">&nbsp;</p>
-        <p class="MsoNormal">&nbsp;</p>
-        <p class="MsoNormal">&nbsp;</p>
-        <p class="MsoNormal">&nbsp;</p>
-        <p class="MsoNormal">&nbsp;</p>
-        <p class="MsoNormal">&nbsp;</p>
-        </td>
-        </tr>
-        </tbody>
-        </table></div>`,
+        
+        <p></p></div>`,
         "template_id":1
         
     }

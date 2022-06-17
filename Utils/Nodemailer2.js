@@ -1,7 +1,5 @@
 var nodemailer = require('nodemailer');
 const { google } = require('googleapis');
-// const newsletter =require('../Storage/ashish')
-
 
 // These id's and secrets should come from .env file.
 const CLIENT_ID = '525209363917-fi16gne2m0nv9ckgmpcinpg4fa13bklb.apps.googleusercontent.com';
@@ -36,7 +34,7 @@ async function sendMail(emailsArr,code) {
       const mailOptions = {
         from: 'Newsletter@kloudrac.com',
         to: emailsArr,
-        subject: 'Newsletter-April-22',
+        subject: 'Newsletter',
         text: 'Newsletter from kloudrac',
         html: code
       };

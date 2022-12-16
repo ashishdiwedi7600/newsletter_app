@@ -1,21 +1,20 @@
-const { default: mongoose } = require("mongoose");
-const database = require("../models/signUp")                                
+// const database = require("../models/signUp")                                
 
-exports.insertRecord = async (records) => {
-    console.log("hhhhhhh",records);
-    const { name,phone, email, randomPassword, verificationPasscode,accountStatus } = records
+// exports.insertRecord = async (records) => {
+//     console.log("hhhhhhh",records);
+//     const { name,phone, email, randomPassword, verificationPasscode,accountStatus } = records
 
-    return new Promise(async(resolve, reject) => {
-        const newuser = new database.signUp({ name,phone, email, randomPassword,verificationPasscode,accountStatus });
-         await database.signUp.insertMany([newuser])
-            .then(r => {
+//     return new Promise(async(resolve, reject) => {
+//         const newuser = new database.signUp({ name,phone, email, randomPassword,verificationPasscode,accountStatus });
+//          await database.signUp.insertMany([newuser])
+//             .then(r => {
                 
-                resolve({ status: 200, msg: 'added successfully' })
+//                 resolve({ status: 200, msg: 'added successfully' })
                 
-            })
-            .catch(e => { reject(e)})
-    })
-}
+//             })
+//             .catch(e => { reject(e)})
+//     })
+// }
 
 
 // exports.userLogin = async (records) => {

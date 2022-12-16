@@ -17,53 +17,53 @@ const { insertRecord } = require('../db_config/models');
 
 
 
-exports.register = async (req, res) => {
-    console.log(req.body)
-    const { name, email, phone } = req.body
-    let randomPassword = await generatePassword()
-    const verificationPasscode = await generateOTP()
-    const accountStatus = "not verified"
-    console.log("hhhhhhh", randomPassword)
+// exports.register = async (req, res) => {
+//     console.log(req.body)
+//     const { name, email, phone } = req.body
+//     let randomPassword = await generatePassword()
+//     const verificationPasscode = await generateOTP()
+//     const accountStatus = "not verified"
+//     console.log("hhhhhhh", randomPassword)
 
 
-    await bcrypt.hash(randomPassword, 10, async function (err, hash) {
-        if (err) return new Error("somme error occurred");
-        randomPassword = hash
-        let result = await insertRecord({ name, email, phone, randomPassword, verificationPasscode, accountStatus })
-        if (result.status === 200) {
-            const sendVerification = await sendNewsletter([email], verificationTemplate.verifyTemplate())
-            if (sendVerification?.accepted?.length) {
-                res.send({ status: 200, msg: "user added successfully" })
-            }
-        }
-        else {
-            res.send(500)
-        }
-    })
-}
-exports.login = async (req, res) => {
-    console.log("dsddffghhhjjj", req.foundUser)
-    const { email, password } = req.body
+//     await bcrypt.hash(randomPassword, 10, async function (err, hash) {
+//         if (err) return new Error("somme error occurred");
+//         randomPassword = hash
+//         let result = await insertRecord({ name, email, phone, randomPassword, verificationPasscode, accountStatus })
+//         if (result.status === 200) {
+//             const sendVerification = await sendNewsletter([email], verificationTemplate.verifyTemplate())
+//             if (sendVerification?.accepted?.length) {
+//                 res.send({ status: 200, msg: "user added successfully" })
+//             }
+//         }
+//         else {
+//             res.send(500)
+//         }
+//     })
+// }
+// exports.login = async (req, res) => {
+//     console.log("dsddffghhhjjj", req.foundUser)
+//     const { email, password } = req.body
 
 
 
 
-    // const randomPassword = await generatePassword()
-    // const verificationPasscode = await generateOTP()
-    // const accountStatus = "not verified"
+//     // const randomPassword = await generatePassword()
+//     // const verificationPasscode = await generateOTP()
+//     // const accountStatus = "not verified"
 
-    // const result = await insertRecord({ name, email, phone, randomPassword, verificationPasscode ,accountStatus})
-    // // console.log("jhgfghj", result)
-    // if (result.status === 200) {
-    //     const sendVerification = await sendNewsletter([email], verificationTemplate.verifyTemplate())
-    //     if (sendVerification?.accepted?.length) {
-    //         res.send({ status: 200, msg: "user added successfully" })
-    //     }
-    // }
-    // else {
-    //     res.send(500)
-    // }
-}
+//     // const result = await insertRecord({ name, email, phone, randomPassword, verificationPasscode ,accountStatus})
+//     // // console.log("jhgfghj", result)
+//     // if (result.status === 200) {
+//     //     const sendVerification = await sendNewsletter([email], verificationTemplate.verifyTemplate())
+//     //     if (sendVerification?.accepted?.length) {
+//     //         res.send({ status: 200, msg: "user added successfully" })
+//     //     }
+//     // }
+//     // else {
+//     //     res.send(500)
+//     // }
+// }
 
 exports.addTemplate = async (req, res) => {
     console.log(req.body)

@@ -31,8 +31,8 @@ function getRequest(){
 }
 
 function postRequest(){
-    router.post('/register', posttemplateController.register)
-    router.post('/login',userLogin(), posttemplateController.login)
+    // router.post('/register', posttemplateController.register)
+    // router.post('/login',userLogin(), posttemplateController.login)
     router.post('/addTemplate', posttemplateController.addTemplate)
     router.post('/sendNewsletter', posttemplateController.sendNewsletter)
     router.post('/uploadImages',multer.any(),uploadFileToGoogleDrive,posttemplateController.saveImages)

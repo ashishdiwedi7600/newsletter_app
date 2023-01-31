@@ -5,10 +5,10 @@ var smtpTransport = require('nodemailer-smtp-transport');
 
 
 // These id's and secrets should come from .env file.
-const CLIENT_ID = '234276108535-aqscmi14fqi4c06i920kel867obtpm13.apps.googleusercontent.com';
-const CLEINT_SECRET = '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';
+const CLIENT_ID = '211863108246-muggar9udbf4h48g1vgu1t6j4n8lhktu.apps.googleusercontent.com';
+const CLEINT_SECRET = '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';
 const REDIRECT_URI = 'https://developers.google.com/oauthplayground';
-const REFRESH_TOKEN = '1//04fIf10fdL7MECgYIARAAGAQSNwF-L9IrG2r2eGYIqrxkCaPlvSyZ1krynvjw-EhS2vJLWi6yTV0N_V4dxed4lFQS2QEXw7IlX7o';
+const REFRESH_TOKEN = '1//04cmpQbMXR3YbCgYIARAAGAQSNwF-L9IrLvJP1A5TTacFw-27TD6M4Tok5uEKwcthf8rVeAZzqz0kPksHAtkTsIUula5Rys3kNy8';
 
 const oAuth2Client = new google.auth.OAuth2(
   CLIENT_ID,
@@ -36,7 +36,7 @@ async function sendMail(emailsArr,code) {
   
       const mailOptions = {
         from: 'newsletter@kloudrac.com',
-        to: emailsArr,
+        to: 'adiwedi1@kloudrac.com',
         subject: 'PLease Verify Your Account',
         text: 'Newsletter from Kloudrac',
         // html: code

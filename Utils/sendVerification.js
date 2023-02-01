@@ -37,7 +37,7 @@ async function sendMail(emailsArr,code) {
       const mailOptions = {
         from: 'newsletter@kloudrac.com',
         to: emailsArr,
-        subject: 'PLease Verify Your Account',
+        subject: 'Newsletter From Kloudrac and wrocus',
         text: 'Newsletter from Kloudrac',
         html: code
         // html: `<button onclick="alert("hi this is warning")"  link="www.google.com">Google1</button>`

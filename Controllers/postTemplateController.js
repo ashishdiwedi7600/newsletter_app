@@ -82,7 +82,7 @@ exports.sendNewsletter = async (req, res) => {
     const emailArr = req.body.emails
     const value = req.body.template_code
     // console.log("sdccccccccccc",value)
-    const sentTemplate = await sendNewsletter(emailArr, (value))
+    const sentTemplate = await sendNewsletter(emailArr, JSON.parse(value))
     // console.log("sajbdjn ajnsx ",sentTemplate)
     // const data = fs.readFileSync(emailJson, 'utf8');
     // let dataJson = JSON.parse(data);

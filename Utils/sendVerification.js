@@ -5,10 +5,10 @@ var smtpTransport = require('nodemailer-smtp-transport');
 
 
 // These id's and secrets should come from .env file.
-const CLIENT_ID = '211863108246-muggar9udbf4h48g1vgu1t6j4n8lhktu.apps.googleusercontent.com';
-const CLEINT_SECRET = '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';
+const CLIENT_ID = '590458794596-6luc48cvg6s4jqqps3ttduabnhcgosm9.apps.googleusercontent.com';
+const CLEINT_SECRET = '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';
 const REDIRECT_URI = 'https://developers.google.com/oauthplayground';
-const REFRESH_TOKEN = '1//04cmpQbMXR3YbCgYIARAAGAQSNwF-L9IrLvJP1A5TTacFw-27TD6M4Tok5uEKwcthf8rVeAZzqz0kPksHAtkTsIUula5Rys3kNy8';
+const REFRESH_TOKEN = '1//04CHD66rw2xWOCgYIARAAGAQSNwF-L9IrJWxzx-Q4t69ULnq_HWDoomALRgDKSjdcS4p_AHTt2Ig3wKDkUGtPby6U24GhYlOAfvM';
 
 const oAuth2Client = new google.auth.OAuth2(
   CLIENT_ID,
